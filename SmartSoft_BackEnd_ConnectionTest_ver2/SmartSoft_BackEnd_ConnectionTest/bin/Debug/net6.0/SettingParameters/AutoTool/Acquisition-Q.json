@@ -1,0 +1,1 @@
+{"m_TargetTemperature":{"Name":"Target Temperature(C)","Description":"Target Temperature(C)","ClassName":"TParameterData","Unit":"C","Name History":[]},"m_PIDList":{"Name":"PID List","Description":"PID List","ClassName":"TParameterSelectData","Name History":[]}}

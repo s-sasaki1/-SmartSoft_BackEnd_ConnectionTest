@@ -1,0 +1,1341 @@
+{
+  "Settings": {
+    "m_AnodePositionXRay": {
+      "Name": "Anode Position",
+      "Description": "Anode Position",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_AnodePositionBeamSize": {
+      "Name": "Anode Position Beam Size",
+      "Description": "Anode Position during Beam Size",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_InterlaceInterval": {
+      "Name": "Interlace Interval",
+      "Description": "Interlace Interval",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamVoltageInV": {
+      "Name": "Beam Voltage",
+      "Description": "Beam Voltage(V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_CondenserVoltageInV": {
+      "Name": "Condenser Voltage",
+      "Description": "Condenser Voltage (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_BlankVoltageInV": {
+      "Name": "Blank Voltage",
+      "Description": "Blank Voltage (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_ObjectiveCurrentInA": {
+      "Name": "Objective Current",
+      "Description": "Objective Current (A)",
+      "ClassName": "TParameterData",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilamentCurrentMaxInA": {
+      "Name": "Filament Current Max",
+      "Description": "Filament Current Limit (A)",
+      "ClassName": "TParameterData",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_EmissionCurrentSetPointInMa": {
+      "Name": "Target Emission (mA)",
+      "Description": "Target Emission Current (mA)",
+      "ClassName": "TParameterData",
+      "Unit": "mA",
+      "Name History": [
+        
+      ]
+    },
+    "m_EmissionCurrentControl": {
+      "Name": "Emission Current Control",
+      "Description": "Emission Current Control",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadFilamentCurrentInA": {
+      "Name": "Read Filament Current (A)",
+      "Description": "Read Filament Current (A)",
+      "ClassName": "TParameterData",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_OffsetXInUm": {
+      "Name": "Offset X (um)",
+      "Description": "Offset X (um)",
+      "ClassName": "TParameterData",
+      "Unit": "um",
+      "Name History": [
+        
+      ]
+    },
+    "m_OffsetYInUm": {
+      "Name": "Offset Y (um)",
+      "Description": "Offset Y (um)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_StigX": {
+      "Name": "StigX",
+      "Description": "Stigmation X",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_StigY": {
+      "Name": "StigY",
+      "Description": "Stigmation Y",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_MagFactorX": {
+      "Name": "Magnification Factor X",
+      "Description": "X Magnification Factor",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_MagFactorY": {
+      "Name": "Magnification Factor Y",
+      "Description": "Y Magnification Factor",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_RotationInDeg": {
+      "Name": "Rotation (deg)",
+      "Description": "Rotation (deg)",
+      "ClassName": "TParameterData",
+      "Unit": "deg",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadBeamPowerInW": {
+      "Name": "Beam Power(W)",
+      "Description": "Beam Power (W)",
+      "ClassName": "TParameterData",
+      "Unit": "W",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeStartXInUm": {
+      "Name": "Beam Size Start X (um)",
+      "Description": "Beam Size Start X (um)",
+      "ClassName": "TParameterData",
+      "Unit": "um",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeEndXInUm": {
+      "Name": "Beam Size End X (um)",
+      "Description": "Beam Size End X (um)",
+      "ClassName": "TParameterData",
+      "Unit": "um",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeStartYInUm": {
+      "Name": "Beam Size Start Y (um)",
+      "Description": "Beam Size Start Y (um)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeEndYInUm": {
+      "Name": "Beam Size End Y (um)",
+      "Description": "Beam Size End Y (um)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamDiameterInUm": {
+      "Name": "Beam Diameter (um)",
+      "Description": "Beam Diameter (um)",
+      "ClassName": "TParameterData",
+      "Unit": "um",
+      "Name History": [
+        
+      ]
+    },
+    "m_StepsPerDiameter": {
+      "Name": "Steps Per Diameter",
+      "Description": "Steps Per Beam Diameter",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_StepsPerDiameterForReadBeam": {
+      "Name": "Steps Per Diameter For Read Beam",
+      "Description": "Steps Per Beam Diameter (Read Beam Diameter)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_DelayForReadBeam": {
+      "Name": "Step Delay For Read Beam",
+      "Description": "Step Delay For Read Beam Diameter (ms)",
+      "ClassName": "TParameterData",
+      "Unit": "ms",
+      "Name History": [
+        
+      ]
+    },
+    "m_HighPower": {
+      "Name": "High Power",
+      "Description": "High Power",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    }
+  },
+  "Property": {
+    "m_ValidateChangesPrompt": {
+      "Name": "Setting Change",
+      "Description": "-1",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_CategoryList": {
+      "Name": "Category List",
+      "Description": "-1",
+      "ClassName": "TParameterString",
+      "Name History": [
+        
+      ]
+    },
+    "m_OutgasPressureGauge": {
+      "Name": "Outgas:Pressure Gauge",
+      "Description": "Gauge for monitoring outgas pressure",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_OutgasPressureThreshold": {
+      "Name": "Outgas:Pressure Threshold (Torr)",
+      "Description": "Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers",
+      "ClassName": "TParameterPressure",
+      "Unit": "Torr",
+      "Name History": [
+        
+      ]
+    },
+    "m_OutgasRecoveryPressure": {
+      "Name": "Outgas:Recovery Pressure (Torr)",
+      "Description": "Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue",
+      "ClassName": "TParameterPressure",
+      "Unit": "Torr",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterGunTypeSettingActive": {
+      "Name": "Sputter:Setting Active",
+      "Description": "Setting Active",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterGunTypeSettingName": {
+      "Name": "Sputter:Setting Name",
+      "Description": "Setting Name",
+      "ClassName": "TParameterString",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterCoSputterActive": {
+      "Name": "Sputter:Co-Sputter Active",
+      "Description": "Co-Sputter Active",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterCoSputterType": {
+      "Name": "Sputter:Co-Sputter",
+      "Description": "Co-Sputter",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterCoSputterSettingActive": {
+      "Name": "Sputter:Co-Sputter Setting Active",
+      "Description": "Co-Sputter Setting Active",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterCoSputterSettingName": {
+      "Name": "Sputter:Co-Sputter Setting Name",
+      "Description": "Co-Sputter Setting Name",
+      "ClassName": "TParameterString",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterZalarRotation": {
+      "Name": "Sputter:Zalar Rotation",
+      "Description": "Zalar Rotation",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterEGunNeutralization": {
+      "Name": "Sputter:EGun Neutralization",
+      "Description": "EGun Neutralization",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_SputterTargetSputterTime": {
+      "Name": "Sputter:Target Sputter Time (min)",
+      "Description": "Target Sputter Time (min)",
+      "ClassName": "TParameterDateTime",
+      "Unit": "min",
+      "Name History": [
+        
+      ]
+    },
+    "m_AmmeterTargetTask": {
+      "Name": "Target Task",
+      "Description": "Target Task",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_AmmeterMode": {
+      "Name": "Bias Box Mode",
+      "Description": "Bias Box Mode",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_AmmeterReadCurrentInUnits": {
+      "Name": "Beam Current",
+      "Description": "Beam Current",
+      "ClassName": "TParameterReadback",
+      "Unit": "(uA)",
+      "Name History": [
+        
+      ]
+    },
+    "m_Settings": {
+      "Name": "XRay Settings",
+      "Description": "-1",
+      "ClassName": "TParameterSettingData",
+      "Name History": [
+        
+      ]
+    },
+    "m_SourceType": {
+      "Name": "Source Type",
+      "Description": "Source Type",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_AnodeMaterial": {
+      "Name": "Anode Material",
+      "Description": "Anode Material",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_AnodeEnergy": {
+      "Name": "Photon Energy (eV)",
+      "Description": "Photon Energy (eV)",
+      "ClassName": "TParameterData",
+      "Unit": "eV",
+      "Name History": [
+        
+      ]
+    },
+    "m_IgnoreWatchDogWithHPSetting": {
+      "Name": "Ignore Setting Watch Dog With HP Setting",
+      "Description": "Ignore Setting Watch Dog With HP Setting",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_InitializeAnodeOnBeamPowerBeamSize": {
+      "Name": "Init Anode Beam Power\/Beam Size",
+      "Description": "Initialize Anode Motor When Beam Power Or Beam Size",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilamentCurrentGain": {
+      "Name": "Filament Current Gain",
+      "Description": "Filament Current Gain",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_EmissionCurrentRefreshRateInMin": {
+      "Name": "Emission Current Refresh Rate (min)",
+      "Description": "Emission Current Control Refresh Rate (min)",
+      "ClassName": "TParameterData",
+      "Unit": "min",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamParkActive": {
+      "Name": "Beam Park Active",
+      "Description": "Auto Park X-Ray Beam After Acquisition",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamParkXraySetting": {
+      "Name": "Beam Parking X-Ray Setting",
+      "Description": "X-Ray Setting Used During Beam Parking",
+      "ClassName": "TParameterString",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamParkAutoOff": {
+      "Name": "Auto Beam Park Shutdown",
+      "Description": "Auto Beam Park Shutdown Active",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamParkAutoOffDelay": {
+      "Name": "Auto Beam Park Shutdown Delay(hrs)",
+      "Description": "Shutdown Beam Parking After This Time Period Of Inactivity",
+      "ClassName": "TParameterData",
+      "Unit": "hrs",
+      "Name History": [
+        
+      ]
+    },
+    "m_ArcCount": {
+      "Name": "Arc Count",
+      "Description": "Arc Count",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_LensArcCount": {
+      "Name": "Lens Arc Count",
+      "Description": "Lens Arc Count",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_HardwareFilamentCurrentLimitInA": {
+      "Name": "Hardware Filament Current Limit (A)",
+      "Description": "Filament Current Limit For Hardware Safety (A)",
+      "ClassName": "TParameterData",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_HardwareEmissionCurrentLimitInUA": {
+      "Name": "Hardware Emission Current Limit (uA)",
+      "Description": "Emission Current Limit For Hardware Safety (uA)",
+      "ClassName": "TParameterData",
+      "Unit": "uA",
+      "Name History": [
+        
+      ]
+    },
+    "m_DelayFactorX": {
+      "Name": "Delay Factor X",
+      "Description": "Delay Factor X",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_DelayFactorY": {
+      "Name": "Delay Factor Y",
+      "Description": "Delay Factor Y",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_AreaTimePerPointInUs": {
+      "Name": "Area Time Per Point (uSec)",
+      "Description": "Area Time Per Point (uSec)",
+      "ClassName": "TParameterData",
+      "Unit": "uSec",
+      "Name History": [
+        
+      ]
+    },
+    "m_PointTimePerPointInUs": {
+      "Name": "Point Time Per Point (uSec)",
+      "Description": "Point Time Per Point (uSec)",
+      "ClassName": "TParameterData",
+      "Unit": "uSec",
+      "Name History": [
+        
+      ]
+    },
+    "m_BPPrevEmissionControl": {
+      "Name": "Beam Power Previous Emission Current Control State",
+      "Description": "Beam Power Previous Emission Current Control State",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_BPReadDelayInSec": {
+      "Name": "Beam Power Read Delay (sec)",
+      "Description": "Beam Power Read Delay (sec)",
+      "ClassName": "TParameterData",
+      "Unit": "sec",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeAutoAdjust": {
+      "Name": "Beam Size Auto Adjust Threshold",
+      "Description": "Beam Size Auto Adjust Threshold",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_StepsPerDiameterForSxi": {
+      "Name": "Steps Per Diameter For Sxi",
+      "Description": "Steps Per Beam Diameter (SXI Imaging)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_StepsPerDiameterForSpectrum": {
+      "Name": "Steps Per Diameter For Spectrum",
+      "Description": "Steps Per Beam Diameter (Spectrum\/Profile Acquisition)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_StepsPerDiameterForLine": {
+      "Name": "Steps Per Diameter For Line",
+      "Description": "Steps Per Beam Diameter (Line Acquisition)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_StepsPerDiameterForMap": {
+      "Name": "Steps Per Diameter For Map",
+      "Description": "Steps Per Beam Diameter (Map Acquisition)",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamEnergyDataOutgas": {
+      "Name": "Beam Voltage Outgas",
+      "Description": "Beam Voltage(V)",
+      "ClassName": "TParameterDataOutgas",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_CondenserVoltageDataOutgas": {
+      "Name": "Condenser Voltage Outgas",
+      "Description": "Condenser Voltage (V)",
+      "ClassName": "TParameterDataOutgas",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_ObjectiveCurrentDataOutgas": {
+      "Name": "Objective Current Outgas",
+      "Description": "Objective Current (A)",
+      "ClassName": "TParameterDataOutgas",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilamentRange1DataOutgas": {
+      "Name": "Filament Current Max Outgas: Range-1",
+      "Description": "Filament Current Limit (A): Range-1",
+      "ClassName": "TParameterDataOutgas",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilamentRange2DataOutgas": {
+      "Name": "Filament Current Max Outgas: Range-2",
+      "Description": "Filament Current Limit (A): Range-2",
+      "ClassName": "TParameterDataOutgas",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    }
+  },
+  "NotFile": {
+    "m_Parameter": {
+      "Name": "XRay",
+      "Description": "XRay",
+      "ClassName": "TParameter",
+      "Name History": [
+        
+      ]
+    },
+    "m_QueueFilename": {
+      "Name": "Queue Filename",
+      "Description": "Queue Filename",
+      "ClassName": "TParameterString",
+      "Name History": [
+        
+      ]
+    },
+    "m_QueueSection": {
+      "Name": "Queue Section",
+      "Description": "Queue Section",
+      "ClassName": "TParameterString",
+      "Name History": [
+        
+      ]
+    },
+    "m_ApplicationLog": {
+      "Name": "X-Ray Application Log",
+      "Description": "X-Ray Application Log",
+      "ClassName": "TParameterLog",
+      "Name History": [
+        
+      ]
+    },
+    "m_CommStatus": {
+      "Name": "XRayHardware Status",
+      "Description": "-1",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_GunType": {
+      "Name": "Gun Type",
+      "Description": "Gun Type",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_AmmeterReadCurrentInNa": {
+      "Name": "Ammeter Current(nA)",
+      "Description": "Ammeter Current (nA)",
+      "ClassName": "TParameterReadback",
+      "Unit": "nA",
+      "Name History": [
+        
+      ]
+    },
+    "m_SettingsHp": {
+      "Name": "XRay Settings Hp",
+      "Description": "XRay Settings: High Power Only",
+      "ClassName": "TParameterSettingData",
+      "Unit": "High Power",
+      "Name History": [
+        
+      ]
+    },
+    "m_SettingsNotHp": {
+      "Name": "XRay Settings Not Hp",
+      "Description": "XRay Settings: Non-High Power Only",
+      "ClassName": "TParameterSettingData",
+      "Unit": "Non-High Power",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilEmApplicationLog": {
+      "Name": "XRay Filament Emission Application Log",
+      "Description": "XRay Filament Emission Application Log",
+      "ClassName": "TParameterLog",
+      "Name History": [
+        
+      ]
+    },
+    "m_AnodePosition": {
+      "Name": "Anode Position Actual Position",
+      "Description": "Anode Position (Actual Position)",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_EGunMode": {
+      "Name": "Beam State",
+      "Description": "X-Ray Electron Gun State",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilamentCurrentInA": {
+      "Name": "Filament Current",
+      "Description": "Filament Current (A)",
+      "ClassName": "TParameterData",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_CurrentPosPixelSizeX": {
+      "Name": "CurrentPosPixelSizeX",
+      "Description": "Current Position X Pixel Size for Current Beam Packing Parameters",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_CurrentPosPixelSizeY": {
+      "Name": "CurrentPosPixelSizeY",
+      "Description": "Current Position Y Pixel Size for Current Beam Packing Parameters",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_CurrentPosPixelSizeStr": {
+      "Name": "CurrentPosPixelSizeString",
+      "Description": "Current Position Pixel Size for Current Beam Packing Parameters",
+      "ClassName": "TParameterString",
+      "Unit": "pixels",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadEGunMode": {
+      "Name": "Read Beam State",
+      "Description": "Read Beam State",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadBeamVoltageInV": {
+      "Name": "Read Beam Voltage (V)",
+      "Description": "Read Beam Voltage (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadEmissionCurrentInMa": {
+      "Name": "Read Emission Current (mA)",
+      "Description": "Read Emission Current (mA)",
+      "ClassName": "TParameterData",
+      "Unit": "mA",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadCondenserVoltageInV": {
+      "Name": "Read Condenser Voltage (V)",
+      "Description": "Read Condenser Voltage (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadBlankVoltageInV": {
+      "Name": "Read Blank Voltage (V)",
+      "Description": "Read Blank Voltage (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadFilamentVoltageInV": {
+      "Name": "Read Filament Voltage (V)",
+      "Description": "Read Filament Voltage (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadObjectiveCurrentInA": {
+      "Name": "Read Objective Current (A)",
+      "Description": "Read Objective Current (A)",
+      "ClassName": "TParameterData",
+      "Unit": "A",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply5V": {
+      "Name": "5V Supply (V)",
+      "Description": "5V Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply3V": {
+      "Name": "3V Supply (V)",
+      "Description": "3V Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply15V": {
+      "Name": "15V Supply (V)",
+      "Description": "15V Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_SupplyMinus15V": {
+      "Name": "Minus 15V Supply (V)",
+      "Description": "Minus 15V Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_SupplyMinus10V": {
+      "Name": "Minus 10V Ref (V)",
+      "Description": "Minus 10V Ref (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_PowerSupplyReady": {
+      "Name": "Power SupplyReady",
+      "Description": "H.V. Power Supply",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_StatusFilamentLimit": {
+      "Name": "FilamentCurrentLimit",
+      "Description": "Filament Current Limit",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_StatusEmissionCurrentLimit": {
+      "Name": "EmissionCurrentLimit",
+      "Description": "Emission Current Limit",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_ExtendedEmissionLimit": {
+      "Name": "ExtendedEmissionLimit",
+      "Description": "Extended Emission Current Limit",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_WatchdogBeamBlanking": {
+      "Name": "WatchdogBeamBlanking",
+      "Description": "Watchdog Beam Blanking",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_SoftwareBeamControl": {
+      "Name": "SoftwareBeamControl",
+      "Description": "Software Beam Control",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_InterlockReady": {
+      "Name": "InterlockReady",
+      "Description": "Pressure\/Waterflow Interlock",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilamentOpen": {
+      "Name": "FilamentOpen",
+      "Description": "Filament Open only available with X-Ray EGun 11-426",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadObjectiveVoltageInV": {
+      "Name": "Read Objective Voltage (V)",
+      "Description": "Read Objective Voltage (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadCondenserCurrentInUA": {
+      "Name": "Read Condenser Current (uA)",
+      "Description": "Read Condenser Current (uA)",
+      "ClassName": "TParameterData",
+      "Unit": "uA",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadFanInRPM": {
+      "Name": "Fan RPM",
+      "Description": "Fan RPM",
+      "ClassName": "TParameterData",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply5pt3V": {
+      "Name": "5.3V Supply (V)",
+      "Description": "5.3V Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply12V": {
+      "Name": "12V Supply (V)",
+      "Description": "12V Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply24VPS1": {
+      "Name": "24V PS1 Supply (V)",
+      "Description": "24V PS1 Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply24VPS2": {
+      "Name": "24V PS2 Supply (V)",
+      "Description": "24V PS2 Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply24VPS3": {
+      "Name": "24V PS3 Supply (V)",
+      "Description": "24V PS3 Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply5pt3VFloat": {
+      "Name": "5.3V Float Supply (V)",
+      "Description": "5.3V Float Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply12VFloat": {
+      "Name": "12V Float Supply (V)",
+      "Description": "12V Float Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_Supply18VFloat": {
+      "Name": "18V Float Supply (V)",
+      "Description": "18V Float Supply (V)",
+      "ClassName": "TParameterData",
+      "Unit": "V",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamPSTempInC": {
+      "Name": "Beam PS Temp (C)",
+      "Description": "Beam PS Temp (C))",
+      "ClassName": "TParameterData",
+      "Unit": "C",
+      "Name History": [
+        
+      ]
+    },
+    "m_FilamentPSTempInC": {
+      "Name": "Filament PS Temp (C)",
+      "Description": "Filament PS Temp (C))",
+      "ClassName": "TParameterData",
+      "Unit": "C",
+      "Name History": [
+        
+      ]
+    },
+    "m_NeutMode": {
+      "Name": "Neutralizer State",
+      "Description": "Neutralizer Blanking State",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_WatchDog": {
+      "Name": "Watch Dog State",
+      "Description": "Watch Dog State",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamPowerState": {
+      "Name": "Measure Power",
+      "Description": "Measure Power",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_BPPrevAnodePosition": {
+      "Name": "Beam Power Previous Anode Position",
+      "Description": "Beam Power Previous Anode Position",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_BPPrevEgunMode": {
+      "Name": "Beam Power Previous Beam State",
+      "Description": "Beam Power Previous Beam State",
+      "ClassName": "TParameterSelectData",
+      "Name History": [
+        
+      ]
+    },
+    "m_EBeamDiameterInUm": {
+      "Name": "Electron Beam Diameter (um)",
+      "Description": "Electron Beam Diameter (um)",
+      "ClassName": "TParameterData",
+      "Unit": "um",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeAcqState": {
+      "Name": "Read Beam Size",
+      "Description": "Read Beam Size",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeNegDirScan": {
+      "Name": "Scanning negative direction",
+      "Description": "Scanning negative direction",
+      "ClassName": "TParameterBoolean",
+      "Name History": [
+        
+      ]
+    },
+    "m_BeamSizeAcqDistance": {
+      "Name": "Beam Size Acq Distance (um)",
+      "Description": "Beam Size Acq Distance (um)",
+      "ClassName": "TParameterData",
+      "Unit": "um",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoLoadSetting": {
+      "Name": "Load Setting",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoSetModeOff": {
+      "Name": "Set Beam Off",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoSetModeOn": {
+      "Name": "Set Beam On",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoInitHardware": {
+      "Name": "Initialize Hardware",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoSetEmissionControl": {
+      "Name": "Set Emission Control",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoSetTargetEmission": {
+      "Name": "Set Emission Current",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoBeamParking": {
+      "Name": "Beam Park",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoPrepForBake": {
+      "Name": "Beam Off for Bake",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoSetAnodePosition": {
+      "Name": "Set Anode Position",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoSetupOutgasParameters": {
+      "Name": "Outgas Monitor Parameters",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoPrepForOutgas": {
+      "Name": "Prepare Gun for Outgas",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoPrepForHighVoltageOutgas": {
+      "Name": "Prepare Gun for High Voltage Outgas",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoSetFinalValuesForOutgas": {
+      "Name": "Set Final Values after Outgas",
+      "Description": "-1",
+      "ClassName": "TParameterAutoTool",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoBeamEnergyOutgas": {
+      "Name": "Outgas Beam (V) Range-1",
+      "Description": "-1",
+      "ClassName": "TParameterAutoToolOutgas",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoCondenserOutgas": {
+      "Name": "Outgas Condenser (V) Range-1",
+      "Description": "-1",
+      "ClassName": "TParameterAutoToolOutgas",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoObjectiveOutgas": {
+      "Name": "Outgas Objective (A) Range-1",
+      "Description": "-1",
+      "ClassName": "TParameterAutoToolOutgas",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoFilamentCurrentLimitRange1Outgas": {
+      "Name": "Outgas Filament Limit (A) Range-1",
+      "Description": "-1",
+      "ClassName": "TParameterAutoToolOutgas",
+      "Name History": [
+        
+      ]
+    },
+    "m_AutoFilamentCurrentLimitRange2Outgas": {
+      "Name": "Outgas Filament Limit (A) Range-2",
+      "Description": "-1",
+      "ClassName": "TParameterAutoToolOutgas",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadEmissionDataCollection": {
+      "Name": "Read Emission",
+      "Description": "Read Emission",
+      "ClassName": "TParameterDataCollection",
+      "Name History": [
+        
+      ]
+    },
+    "m_ReadFilamentDataCollection": {
+      "Name": "Read Filament",
+      "Description": "Read Filament",
+      "ClassName": "TParameterDataCollection",
+      "Name History": [
+        
+      ]
+    },
+    "m_DiagnosticsXRayDataCollection": {
+      "Name": "Diagnostics X-Ray",
+      "Description": "Read X-Ray Status",
+      "ClassName": "TParameterDataCollection",
+      "Name History": [
+        
+      ]
+    },
+    "m_DiagnosticsXRay11426DataCollection": {
+      "Name": "Diagnostics X-Ray 11-426",
+      "Description": "Read X-Ray 11-426 Status",
+      "ClassName": "TParameterDataCollection",
+      "Name History": [
+        
+      ]
+    },
+    "m_DiagnosticsSupplyDataCollection": {
+      "Name": "Diagnostics X-Ray Supply",
+      "Description": "Read X-Ray Supply Status",
+      "ClassName": "TParameterDataCollection",
+      "Name History": [
+        
+      ]
+    },
+    "m_DiagnosticsRegisterDataCollection": {
+      "Name": "Diagnostics X-Ray Register",
+      "Description": "Read X-Ray Register Status",
+      "ClassName": "TParameterDataCollection",
+      "Name History": [
+        
+      ]
+    }
+  }
+}

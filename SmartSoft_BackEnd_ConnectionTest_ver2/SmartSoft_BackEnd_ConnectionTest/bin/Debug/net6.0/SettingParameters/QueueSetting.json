@@ -1,0 +1,103 @@
+{
+  "AcqTechnique": [
+    "XPS",
+    "AES",
+    "REELS",
+    "IPES",
+    "ISS"
+  ],
+  "XPS_AcqType": [
+    "Spectral",
+    "Profile",
+    "Angle",
+    "Line",
+    "Map",
+    "Refresh"
+  ],
+  "AES_AcqType": [
+    "Spectral",
+    "Profile",
+    "Line",
+    "Map",
+    "Refresh",
+    "AES MCD"
+  ],
+  "Navigate": [
+    "m_ReferenceImage",
+    "m_Active",
+    "m_Id",
+    "m_DefectName",
+    "m_Comment",
+    "m_AreaType",
+    "m_AlignType",
+    "m_ImageFilename",
+    "m_ReferenceImageFilename",
+    "m_StageX",
+    "m_StageY",
+    "m_StageZ",
+    "m_StageR",
+    "m_StageT",
+    "m_PositionUL_WaferU",
+    "m_PositionUL_WaferV",
+    "m_PositionLR_WaferU",
+    "m_PositionLR_WaferV"
+  ],
+  "XPS": [
+    "m_ActiveList",
+    "m_IRActiveList",
+    "m_AtomicNoList",
+    "m_ElementList",
+    "m_AcqLowerLimitList",
+    "m_AcqUpperLimitList",
+    "m_RangeList",
+    "m_EvStepList",
+    "m_AnalLowerLimitList",
+    "m_AnalUpperLimitList",
+    "m_PeakUnscanList",
+    "m_RangeUnscanList",
+    "m_EvStepUnscanList",
+    "m_NoOfChannelsUnscanList",
+    "m_AnalysisPeakUnscanList",
+    "m_AnalysisRangeUnscanList",
+    "m_NoOfSweepsList",
+    "m_PassEnergyList",
+    "m_RatioList",
+    "m_PeakToNoiseList"
+  ],
+  "AES": [
+    "m_ActiveList",
+    "m_IRActive",
+    "m_AtomicNoList",
+    "m_ElementList",
+    "m_AcqLowerLimitList",
+    "m_AcqUpperLimitList",
+    "m_RangeList",
+    "m_EvStepList",
+    "m_AnalLowerLimitList",
+    "m_AnalUpperLimitList",
+    "m_PeakList",
+    "m_Background1List",
+    "m_Background2List",
+    "m_NoOfChannelsList",
+    "m_NoOfSweepsList",
+    "m_EnergyResolutionList",
+    "m_RatioList",
+    "m_PeakToNoiseList",
+    "m_PassEnergyList",
+    "m_FATEvStepList"
+  ],
+  "ProfileAcq": [
+    "m_LayerNameList",
+    "m_LayerNoCycleList",
+    "m_LayerTimeList",
+    "m_LayerDepthList",
+    "m_LayerIntervalList",
+    "m_LayerIgSettingList",
+    "m_LayerIgSputterRateList",
+    "m_LayerIgGunTypeList"
+  ],
+  "AngleAcq": [
+    "m_PolarAngleList",
+    "m_PolarCycleList"
+  ]
+}

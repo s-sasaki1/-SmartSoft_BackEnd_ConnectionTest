@@ -1,0 +1,10475 @@
+﻿== Parameter name 一覧
+
+=== AcqHdwrCtrl
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_AcqMode
+|Acq Mode
+
+|#4
+|m_AnodeCollectorBiasV
+|Anode Collector BiasV
+
+|#5
+|m_AnodeCollectorAutoOptimizeBeamSize
+|Automatically Optimize Beam Size
+
+|#6
+|m_AnodeCollectorGain
+|Anode Collector Gain
+
+|#7
+|m_AnodeCollectorAveraging
+|Anode Collector Averaging
+
+|#8
+|m_MagCorrectionMode
+|Only available on AES configured systems
+
+|#9
+|m_MagCorrectionAX
+|Only available on AES configured systems
+
+|#10
+|m_MagCorrectionAY
+|Only available on AES configured systems
+
+|#11
+|m_MagCorrectionBX
+|Only available on AES configured systems
+
+|#12
+|m_MagCorrectionBY
+|Only available on AES configured systems
+
+|#13
+|m_MagCorrectionCX
+|Only available on AES configured systems
+
+|#14
+|m_MagCorrectionCY
+|Only available on AES configured systems
+
+|#15
+|m_GauzeLensErrorThreshold
+|Error Threshold: 0=Infinite
+
+|#16
+|m_AmpDiscThreshold
+|Amp/Disc Threshold
+
+|#17
+|m_SEDMode
+|Only available on AES configured systems with 38-101
+
+|#18
+|m_SED0Tau
+|Only available on AES configured systems with 38-101
+
+|#19
+|m_SED1Tau
+|Only available on AES configured systems with 38-101
+
+|#20
+|m_SED0AcqDataCount
+|Only available on AES configured systems with 38-101
+
+|#21
+|m_SED1AcqDataCount
+|Only available on AES configured systems with 38-101
+
+|#22
+|m_SED0SampleCount
+|Only available on AES configured systems with 38-101
+
+|#23
+|m_SED1SampleCount
+|Only available on AES configured systems with 38-101
+
+|#24
+|m_SED0AvgCount
+|Only available on AES configured systems with 38-101
+
+|#25
+|m_SED1AvgCount
+|Only available on AES configured systems with 38-101
+
+|#26
+|m_SEDPreAmpZeroDAC
+|Only available on AES configured systems
+
+|#27
+|m_SEDPreAmpGainDAC
+|Only available on AES configured systems
+
+|#28
+|m_SEDPreAmpOffsetDAC
+|Only available on AES configured systems
+
+|#29
+|m_SEDPreAmpOffset2DAC
+|Pre-amp Offset2 DAC
+
+
+|================
+=== Acquisition
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_AutoEGunNeutActive
+|XPS: E-Neut Neutralization during Acquisition
+
+|#4
+|m_EGunNeutSetting
+|E-Neut Setting
+
+|#5
+|m_AutoIonGunNeutActive
+|XPS: Ion Gun Neutralization during Acquisition
+
+|#6
+|m_IonGunNeutSetting
+|Ion Gun Setting
+
+|#7
+|m_DirectoryActive
+|Data Manager Active
+
+|#8
+|m_ZAlignActive
+|XPS: Z-Align Active
+
+|#9
+|m_SxiActive
+|SXI Photo Active
+
+|#10
+|m_SputterActive
+|Sputter Active
+
+|#11
+|m_HotColdActive
+|Hot Cold Stage only available with 20-310 Controller
+
+|#12
+|m_ValidateStagePosition
+|Validate Stage Position
+
+|#13
+|m_FXSDelayTime
+|Delay Before Acquire:FXS (sec)
+
+|#14
+|m_AESDelayTime
+|Delay Before Acquire:AES (sec)
+
+|#15
+|m_DualAnodeDelayTime
+|Delay Before Acquire:Dual Anode (sec)
+
+|#16
+|m_PeakToNoiseActive
+|Peak/Noise State
+
+|#17
+|m_PeakIntensity
+|Peak Intensity
+
+|#18
+|m_SampleBiasMode
+|Bias Box Mode to Apply When Doing Acquisition
+
+|#19
+|m_PeakToNoise
+|Default Peak to Noise
+
+|#20
+|m_Step1
+|Scanned Step Size #1
+
+|#21
+|m_Step2
+|Scanned Step Size #2
+
+|#22
+|m_Step3
+|Scanned Step Size #3
+
+|#23
+|m_Step4
+|Scanned Step Size #4
+
+|#24
+|m_Step5
+|Scanned Step Size #5
+
+|#25
+|m_Step6
+|Scanned Step Size #6
+
+|#26
+|m_Step7
+|Scanned Step Size #7
+
+|#27
+|m_Step8
+|Scanned Step Size #8
+
+|#28
+|m_Step9
+|Scanned Step Size #9
+
+|#29
+|m_Step10
+|Scanned Step Size #10
+
+|#30
+|m_Step11
+|Scanned Step Size #11
+
+|#31
+|m_Step12
+|Scanned Step Size #12
+
+|#32
+|m_Ratio1
+|Ratio for Given Pass Energy
+
+|#33
+|m_Ratio2
+|Ratio for Given Pass Energy
+
+|#34
+|m_Ratio3
+|Ratio for Given Pass Energy
+
+|#35
+|m_Ratio4
+|Ratio for Given Pass Energy
+
+|#36
+|m_Ratio5
+|Ratio for Given Pass Energy
+
+|#37
+|m_Ratio6
+|Ratio for Given Pass Energy
+
+|#38
+|m_Ratio7
+|Ratio for Given Pass Energy
+
+|#39
+|m_Ratio8
+|Ratio for Given Pass Energy
+
+|#40
+|m_Ratio9
+|Ratio for Given Pass Energy
+
+|#41
+|m_Ratio10
+|Ratio for Given Pass Energy
+
+|#42
+|m_Ratio11
+|Ratio for Given Pass Energy
+
+|#43
+|m_Ratio12
+|Ratio for Given Pass Energy
+
+
+|================
+=== AESAcquisition
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_AutoEGunNeutActive
+|AES: EGun Neutralization during Acquisition
+
+|#4
+|m_EGunNeutSetting
+|E-Neut Setting
+
+|#5
+|m_AutoIonGunNeutActive
+|AES: Ion Gun Neutralization during Acquisition
+
+|#6
+|m_IonGunNeutSetting
+|Ion Gun Setting
+
+|#7
+|m_ValidateStagePosition
+|Validate Stage Position
+
+|#8
+|m_BeamCurrentActive
+|Beam Current Reading Before Acquisition
+
+|#9
+|m_BeamCurrentThreshold
+|Beam Current Threshold (nA)
+
+|#10
+|m_DirectoryActive
+|Data Manager Active
+
+|#11
+|m_ZAlignActive
+|AES: Z-Align Active
+
+|#12
+|m_ZAlignUseXPS
+|Use XPS Z-Align
+
+|#13
+|m_SemActive
+|SEM Photo Active
+
+|#14
+|m_SputterActive
+|Sputter Active
+
+|#15
+|m_HotColdActive
+|Hot Cold Stage only available with 20-310 Controller
+
+|#16
+|m_FXSDelayTime
+|Delay Before Acquire:FXS (sec)
+
+|#17
+|m_AESDelayTime
+|Delay Before Acquire:AES (sec)
+
+|#18
+|m_DualAnodeDelayTime
+|Delay Before Acquire:Dual Anode (sec)
+
+|#19
+|m_PeakToNoiseActive
+|Peak/Noise State
+
+|#20
+|m_PeakIntensity
+|Peak Intensity
+
+|#21
+|m_PeakToNoise
+|Default Peak to Noise
+
+|#22
+|m_Step1
+|Scanned Step Size #1
+
+|#23
+|m_Step2
+|Scanned Step Size #2
+
+|#24
+|m_Step3
+|Scanned Step Size #3
+
+|#25
+|m_Step4
+|Scanned Step Size #4
+
+|#26
+|m_Step5
+|Scanned Step Size #5
+
+|#27
+|m_FATStep1
+|FAT Scanned Step Size #1
+
+|#28
+|m_FATStep2
+|FAT Scanned Step Size #2
+
+|#29
+|m_FATStep4
+|FAT Scanned Step Size #4
+
+|#30
+|m_FATStep5
+|FAT Scanned Step Size #5
+
+|#31
+|m_FATStep6
+|FAT Scanned Step Size #6
+
+|#32
+|m_FATStep7
+|FAT Scanned Step Size #7
+
+|#33
+|m_FATStep8
+|FAT Scanned Step Size #8
+
+|#34
+|m_FATStep9
+|FAT Scanned Step Size #9
+
+|#35
+|m_FATStep10
+|FAT Scanned Step Size #10
+
+|#36
+|m_FATStep11
+|FAT Scanned Step Size #11
+
+|#37
+|m_FATStep12
+|FAT Scanned Step Size #12
+
+|#38
+|m_Ratio1
+|Ratio for Given Pass Energy
+
+|#39
+|m_Ratio2
+|Ratio for Given Pass Energy
+
+|#40
+|m_Ratio3
+|Ratio for Given Pass Energy
+
+|#41
+|m_Ratio4
+|Ratio for Given Pass Energy
+
+|#42
+|m_Ratio5
+|Ratio for Given Pass Energy
+
+|#43
+|m_Ratio6
+|Ratio for Given Pass Energy
+
+|#44
+|m_Ratio7
+|Ratio for Given Pass Energy
+
+|#45
+|m_Ratio8
+|Ratio for Given Pass Energy
+
+|#46
+|m_Ratio9
+|Ratio for Given Pass Energy
+
+|#47
+|m_Ratio10
+|Ratio for Given Pass Energy
+
+|#48
+|m_Ratio11
+|Ratio for Given Pass Energy
+
+|#49
+|m_Ratio12
+|Ratio for Given Pass Energy
+
+
+|================
+=== AESLineAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_SEMSetting
+|SEM Setting Used During Acquisition
+
+|#2
+|m_TungstenSetting
+|Tungsten Setting Used During Acquisition
+
+|#3
+|m_IonGunSetting
+|Ion Gun Setting Used During Acquisition
+
+|#4
+|m_AnalyzerFRRFATMode
+|Analyzer Mode
+
+|#5
+|m_AcqMethod
+|Acquisition Method
+
+|#6
+|m_ActiveList
+|Active Region
+
+|#7
+|m_AtomicNoList
+|-1
+
+|#8
+|m_ElementList
+|Transition Name
+
+|#9
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#10
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#11
+|m_RangeList
+|Acquisition Range (eV)
+
+|#12
+|m_EvStepList
+|Step Size (eV)
+
+|#13
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#14
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#15
+|m_PeakList
+|Acquisition Peak (eV)
+
+|#16
+|m_Background1List
+|Background 1 (eV)
+
+|#17
+|m_Background2List
+|Background 2 (eV)
+
+|#18
+|m_NoOfChannelsList
+|Active Channels
+
+|#19
+|m_NoOfSweepsList
+|Number of Sweeps
+
+|#20
+|m_EnergyResolutionList
+|Energy Resolution (%)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#24
+|m_FATEvStepList
+|Step Size (eV)
+
+|#25
+|m_IRActive
+|Image Registration <Region>
+
+|#26
+|m_ToFileActiveActiveList
+|-1
+
+|#27
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#28
+|m_TimePerStep
+|Time Per Step (ms)
+
+|#29
+|m_NoOfCycles
+|Number Of Cycles
+
+|#30
+|m_ImageReg
+|Image Registration
+
+|#31
+|m_ImageRegIntCycle
+|Registration Interval
+
+|#32
+|m_ImageRegMode
+|Image Registration Mode
+
+|#33
+|m_ImageRegReferenceImage
+|Use to resave the latest copy of the reference image
+
+|#34
+|m_Resolution
+|Line Pixel Resolution
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|Survey
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+
+|================
+=== AESMapAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_SEMSetting
+|SEM Setting Used During Acquisition
+
+|#2
+|m_TungstenSetting
+|Tungsten Setting Used During Acquisition
+
+|#3
+|m_IonGunSetting
+|Ion Gun Setting Used During Acquisition
+
+|#4
+|m_AnalyzerFRRFATMode
+|Analyzer Mode
+
+|#5
+|m_AcqMethod
+|Acquisition Method
+
+|#6
+|m_ActiveList
+|Active Region
+
+|#7
+|m_AtomicNoList
+|-1
+
+|#8
+|m_ElementList
+|Transition Name
+
+|#9
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#10
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#11
+|m_RangeList
+|Acquisition Range (eV)
+
+|#12
+|m_EvStepList
+|Step Size (eV)
+
+|#13
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#14
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#15
+|m_PeakList
+|Acquisition Peak (eV)
+
+|#16
+|m_Background1List
+|Background 1 (eV)
+
+|#17
+|m_Background2List
+|Background 2 (eV)
+
+|#18
+|m_NoOfChannelsList
+|Active Channels
+
+|#19
+|m_NoOfSweepsList
+|Number of Frames
+
+|#20
+|m_EnergyResolutionList
+|Energy Resolution (%)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#24
+|m_FATEvStepList
+|Step Size (eV)
+
+|#25
+|m_IRActive
+|Image Registration <Region>
+
+|#26
+|m_ToFileActiveActiveList
+|-1
+
+|#27
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#28
+|m_TimePerStep
+|Time Per Step (ms)
+
+|#29
+|m_NoOfCycles
+|Number Of Cycles
+
+|#30
+|m_ImageReg
+|Image Registration
+
+|#31
+|m_ImageRegMode
+|Image Registration Mode
+
+|#32
+|m_ImageRegReferenceImage
+|Use to resave the latest copy of the reference image
+
+|#33
+|m_ResolutionXWindow
+|Map Pixel Resolution
+
+|#34
+|m_ResolutionYWindow
+|-1
+
+|#35
+|m_ResolutionXStatic
+|Map Pixel Resolution
+
+|#36
+|m_ResolutionYStatic
+|-1
+
+|#37
+|m_Normalized
+|Normalized
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|Survey
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+
+|================
+=== AESPeriodicTable
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_ElementDatabasePathname
+|Element Database Filename
+
+
+|================
+=== AESProfileAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_SEMSetting
+|SEM Setting Used During Acquisition
+
+|#2
+|m_TungstenSetting
+|Tungsten Setting Used During Acquisition
+
+|#3
+|m_IonGunSetting
+|Ion Gun Setting Used During Acquisition
+
+|#4
+|m_AnalyzerFRRFATMode
+|Analyzer Mode
+
+|#5
+|m_AcqMethod
+|Acquisition Method
+
+|#6
+|m_ActiveList
+|Active Region
+
+|#7
+|m_AtomicNoList
+|-1
+
+|#8
+|m_ElementList
+|Transition Name
+
+|#9
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#10
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#11
+|m_RangeList
+|Acquisition Range (eV)
+
+|#12
+|m_EvStepList
+|Step Size (eV)
+
+|#13
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#14
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#15
+|m_PeakList
+|Acquisition Peak (eV)
+
+|#16
+|m_Background1List
+|Background 1 (eV)
+
+|#17
+|m_Background2List
+|Background 2 (eV)
+
+|#18
+|m_NoOfChannelsList
+|Active Channels
+
+|#19
+|m_NoOfSweepsList
+|Number of Sweeps
+
+|#20
+|m_EnergyResolutionList
+|Energy Resolution (%)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#24
+|m_FATEvStepList
+|Step Size (eV)
+
+|#25
+|m_IRActive
+|Image Registration <Region>
+
+|#26
+|m_ToFileActiveActiveList
+|-1
+
+|#27
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#28
+|m_TimePerStep
+|Time Per Step (ms)
+
+|#29
+|m_NoOfCycles
+|Number Of Cycles
+
+|#30
+|m_ImageReg
+|Image Registration
+
+|#31
+|m_ImageRegIntCycle
+|Registration Interval
+
+|#32
+|m_ImageRegMode
+|Image Registration Mode
+
+|#33
+|m_ImageRegReferenceImage
+|Use to resave the latest copy of the reference image
+
+|#34
+|m_SputterMode
+|Sputter Mode
+
+|#35
+|m_NoLayers
+|Number Of Layers
+
+|#36
+|m_LayerNameList
+|Layer Name
+
+|#37
+|m_LayerNoCycleList
+|Number Of Cycles
+
+|#38
+|m_LayerTimeList
+|Sputter Time (min)
+
+|#39
+|m_LayerDepthList
+|Sputter Depth (Angstrom)
+
+|#40
+|m_LayerIntervalList
+|Sputter Interval (min)
+
+|#41
+|m_LayerIgSettingList
+|Sputter Setting
+
+|#42
+|m_LayerIgSputterRateList
+|Sputter Rate (Angstrom/min)
+
+|#43
+|m_LayerIgGunTypeList
+|Ion Gun Type
+
+|#44
+|m_PreSputterCycles
+|PreSputter Cycles
+
+|#45
+|m_SputterAcqCycles
+|Sputter/Acquisition Cycles
+
+|#46
+|m_DelayAfterSputter
+|Delay applied after sputter during depth profiling
+
+|#47
+|m_ToFileDelayAfterSputter
+|-1
+
+|#48
+|m_DelayAfterSputterOnNeutOnly
+|Only Delay After Sputter When Neutralizing With Ion Gun
+
+|#49
+|m_ContinuousGunType
+|Continuous Profile Gun Type
+
+|#50
+|m_ContinuousArgonSetting
+|Continuous Argon Sputter Setting
+
+|#51
+|m_ContinuousC60Setting
+|Continuous C60 Sputter Setting
+
+|#52
+|m_ContinuousSputterRate
+|Sputter Rate (Angstrom/min)
+
+|#53
+|m_ContinuousDepth
+|Sputter Depth (Angstrom)
+
+|#54
+|m_DualSputterArgonSetting
+|Dual Sputter Argon Setting
+
+|#55
+|m_EnableAltSputterPos
+|Use Sputter Position Offset to Sputter at Offset Position from Acquisition Position
+
+|#56
+|m_SputterOffsetX
+|Sputter Position X-Offset
+
+|#57
+|m_SputterOffsetY
+|Sputter Position Y-Offset
+
+|#58
+|m_SputterOffsetZ
+|Sputter Position Z-Offset
+
+|#59
+|m_SputterOffsetT
+|Sputter Position Tilt-Offset
+
+|#60
+|m_SputterOffsetR
+|Sputter Position Rotation-Offset
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|Survey
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+|#5
+|m_ZalarHighAccuracy
+|Zalar Accuracy
+
+|#6
+|m_ZalarHighAccuracyInterval
+|Zalar High Accuracy Interval (cycle)
+
+|#7
+|m_AcquisitionPosX
+|Acquisition X-Position for Calculating Sputter Position Offsets
+
+|#8
+|m_AcquisitionPosY
+|Acquisition Y-Position for Calculating Sputter Position Offsets
+
+|#9
+|m_AcquisitionPosZ
+|Acquisition Z-Position for Calculating Sputter Position Offsets
+
+|#10
+|m_AcquisitionPosT
+|Acquisition Tilt-Position for Calculating Sputter Position Offsets
+
+|#11
+|m_AcquisitionPosR
+|Acquisition Rotation-Position for Calculating Sputter Position Offsets
+
+|#12
+|m_SputterPosX
+|Sputter X-Position for Calculating Sputter Position Offsets
+
+|#13
+|m_SputterPosY
+|Sputter Y-Position for Calculating Sputter Position Offsets
+
+|#14
+|m_SputterPosZ
+|Sputter Z-Position for Calculating Sputter Position Offsets
+
+|#15
+|m_SputterPosT
+|Sputter Tilt-Position for Calculating Sputter Position Offsets
+
+|#16
+|m_SputterPosR
+|Sputter Rotation-Position for Calculating Sputter Position Offsets
+
+|#17
+|m_DisplaySpectraStyle
+|AES Profile Display Style
+
+|#18
+|m_BeamBlankingEnable
+|-1
+
+|#19
+|m_BeamBlankingBiasVoltageInkV
+|Bias voltage of blanking
+
+
+|================
+=== AESRegionAcq
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_RefreshPersistence
+|Refresh Persistence
+
+
+|================
+=== AESSpectrumAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_SEMSetting
+|SEM Setting Used During Acquisition
+
+|#2
+|m_TungstenSetting
+|Tungsten Setting Used During Acquisition
+
+|#3
+|m_IonGunSetting
+|Ion Gun Setting Used During Acquisition
+
+|#4
+|m_AcqMethod
+|Acquisition Method
+
+|#5
+|m_ActiveList
+|Active Region
+
+|#6
+|m_AtomicNoList
+|-1
+
+|#7
+|m_ElementList
+|Transition Name
+
+|#8
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#9
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#10
+|m_RangeList
+|Acquisition Range (eV)
+
+|#11
+|m_EvStepList
+|Step Size (eV)
+
+|#12
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#13
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#14
+|m_PeakList
+|Acquisition Peak (eV)
+
+|#15
+|m_Background1List
+|Background 1 (eV)
+
+|#16
+|m_Background2List
+|Background 2 (eV)
+
+|#17
+|m_NoOfChannelsList
+|Active Channels
+
+|#18
+|m_NoOfSweepsList
+|Number of Sweeps
+
+|#19
+|m_EnergyResolutionList
+|Energy Resolution (%)
+
+|#20
+|m_RatioList
+|Ratio
+
+|#21
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#22
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#23
+|m_FATEvStepList
+|Step Size (eV)
+
+|#24
+|m_IRActive
+|Image Registration <Region>
+
+|#25
+|m_ToFileActiveActiveList
+|-1
+
+|#26
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#27
+|m_TimePerStep
+|Time Per Step (ms)
+
+|#28
+|m_NoOfCycles
+|Number Of Cycles
+
+|#29
+|m_ImageReg
+|Image Registration
+
+|#30
+|m_ImageRegIntCycle
+|Registration Interval
+
+|#31
+|m_ImageRegMode
+|Image Registration Mode
+
+|#32
+|m_ImageRegReferenceImage
+|Use to resave the latest copy of the reference image
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|Survey
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+
+|================
+=== Ammeter
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_RefreshRateInSec
+|Read Sample Current Interval (sec)
+
+|#4
+|m_GunSettleDelayInSec
+|Gun Settle Delay (sec)
+
+|#5
+|m_LargeFontDisplayAuto
+|Auto Large Font Display
+
+
+|================
+=== Analyzer
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_SourceAnalyzerAngleXPS
+|Source Analyzer Angle XPS
+
+|#4
+|m_SourceAnalyzerAngleAES
+|Source Analyzer Angle AES
+
+|#5
+|m_SourceAnalyzerAngleUPS
+|Source Analyzer Angle UPS
+
+|#6
+|m_SourceAnalyzerAngleDualAngle
+|Source Analyzer Angle Dual Anode
+
+|#7
+|m_ReadPhotonEnergy
+|Photon Energy (eV) for Current/Just Completed Acquisition
+
+|#8
+|m_ReadWorkFunction
+|Work Function (eV) for Current/Just Completed Acquisition
+
+|#9
+|m_RetardModulationRatio
+|Scale Factor for Retard Modulation
+
+|#10
+|m_ToFileBindingEnergy
+|Binding Energy (eV)
+
+|#11
+|m_ToFileLens2
+|Lens 2 (V)
+
+|#12
+|m_ToFileLens3
+|Lens 3 (V)
+
+|#13
+|m_ToFileLens4
+|Lens 4 (V)
+
+|#14
+|m_ToFileLens5
+|Lens 5 (V)
+
+|#15
+|m_ToFileRotatorCurrent
+|Rotator Current (A)
+
+|#16
+|m_RotatorCurrent
+|Rotator Current (A)
+
+|#17
+|m_StartupPhotonEnergy
+|-1
+
+|#18
+|m_StartupWorkFunction
+|-1
+
+|#19
+|m_StartupBindingEnergy
+|Startup Binding Energy (eV)
+
+|#20
+|m_StartupPassEnergy
+|Startup Pass Energy (eV)
+
+|#21
+|m_StartupLens2
+|Startup Lens 2 (V)
+
+|#22
+|m_StartupLens3
+|Startup Lens 3 (V)
+
+|#23
+|m_StartupLens4
+|Startup Lens 4 (V)
+
+|#24
+|m_StartupLens5
+|Startup Lens 5 (V)
+
+|#25
+|m_StartupRotatorCurrent
+|Startup Acquisition Rotator Current (A)
+
+|#26
+|m_SXIBindingEnergy
+|SXI Acquisition Binding Energy (eV)
+
+|#27
+|m_SXIPassEnergy
+|SXI Acquisition Pass Energy (eV)
+
+|#28
+|m_SXILens2
+|SXI Acquisition Lens 2 (V)
+
+|#29
+|m_SXILens3
+|SXI Acquistion Lens 3 (V)
+
+|#30
+|m_SXILens4
+|SXI Acquisition Lens 4 (V)
+
+|#31
+|m_SXILens5
+|SXI Acquisition Lens 5 (V)
+
+|#32
+|m_SXIRotatorCurrent
+|SXI Acquisition Rotator Current (A)
+
+|#33
+|m_ZAlignBindingEnergy
+|Z-Align Binding Energy (eV)
+
+|#34
+|m_ZAlignPassEnergy
+|Z-Align Pass Energy (eV)
+
+|#35
+|m_ZAlignLens2
+|Z-Align Lens 2 (V)
+
+|#36
+|m_ZAlignLens3
+|Z-Align Lens 3 (V)
+
+|#37
+|m_ZAlignLens4
+|Z-Align Lens 4 (V)
+
+|#38
+|m_ZAlignLens5
+|Z-Align Lens 5 (V)
+
+|#39
+|m_ZAlignRotatorCurrent
+|Z-Align Rotator Current (A)
+
+|#40
+|m_ZAlignLens2Ratio
+|Z-Align Lens 2 Ratio (%)
+
+|#41
+|m_ZAlignLens3Ratio
+|Z-Align Lens 3 Ratio (%)
+
+|#42
+|m_AESZAlignBindingEnergy
+|AES Z-Align Kinetic Energy (eV)
+
+|#43
+|m_AESZAlignPassEnergy
+|AES Z-Align Pass Energy (eV)
+
+|#44
+|m_AESZAlignLens2
+|AES Z-Align Lens 2 (V)
+
+|#45
+|m_AESZAlignLens3
+|AES Z-Align Lens 3 (V)
+
+|#46
+|m_AESZAlignLens4
+|AES Z-Align Lens 4 (V)
+
+|#47
+|m_AESZAlignLens5
+|AES Z-Align Lens 5 (V)
+
+|#48
+|m_AESZAlignRotatorCurrent
+|AES Z-Align Rotator Current (A)
+
+|#49
+|m_AESZAlignLens2Ratio
+|AES Z-Align Lens 2 Ratio (%)
+
+|#50
+|m_AESZAlignLens3Ratio
+|AES Z-Align Lens 3 Ratio (%)
+
+|#51
+|m_XPSMCDBindingEnergy
+|MCD Acquisitions Binding Energy (eV)
+
+|#52
+|m_XPSMCDPassEnergy
+|MCD Acquisitions Pass Energy (eV)
+
+|#53
+|m_AESMCDBindingEnergy
+|AES MCD Kinetic Energy (eV)
+
+|#54
+|m_AESMCDPassEnergy
+|AES MCD Pass Energy (eV)
+
+|#55
+|m_AcceptanceAngle
+|Acceptance Angle
+
+|#56
+|m_TFCAlgorithm
+|TFC Algorithm
+
+|#57
+|m_StandardTFCParameters
+|Standard Acceptance Angle TFC Parameters
+
+|#58
+|m_NarrowTFCParameters
+|Narrow Acceptance Angle TFC Parameters
+
+|#59
+|m_StandardCoefficientA
+|Standard Acceptance Angle Coefficient A
+
+|#60
+|m_StandardCoefficientB
+|Standard Acceptance Angle Coefficient B
+
+|#61
+|m_NarrowCoefficientA
+|Narrow Acceptance Angle Coefficient A
+
+|#62
+|m_NarrowCoefficientB
+|Narrow Acceptance Angle Coefficient B
+
+|#63
+|m_SpanX
+|Span X
+
+|#64
+|m_SpanY
+|Span Y
+
+|#65
+|m_OffsetX
+|Offset X
+
+|#66
+|m_OffsetY
+|Offset Y
+
+|#67
+|m_HPSpanX
+|HP Span X
+
+|#68
+|m_HPSpanY
+|HP Span Y
+
+|#69
+|m_HPOffsetX
+|HP Offset X
+
+|#70
+|m_HPOffsetY
+|HP Offset Y
+
+|#71
+|m_FrontGrid
+|Gauze Lens Front Grid (V)
+
+|#72
+|m_BackGrid
+|Gauze Lens Back Grid (V)
+
+
+|================
+=== AngleAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_AnalyzerMode
+|Analyzer Scan Mode
+
+|#2
+|m_AnalyzerFRRFATMode
+|Analyzer FRR/FAT Mode
+
+|#3
+|m_ActiveList
+|Active Region
+
+|#4
+|m_IRActiveList
+|Image Registration
+
+|#5
+|m_AtomicNoList
+|-1
+
+|#6
+|m_ElementList
+|Transition Name
+
+|#7
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#8
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#9
+|m_RangeList
+|Acquisition Range (eV)
+
+|#10
+|m_EvStepList
+|Step Size (eV)
+
+|#11
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#12
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#13
+|m_PeakUnscanList
+|Acquisition Peak (eV)
+
+|#14
+|m_RangeUnscanList
+|Acquisition Range (eV)
+
+|#15
+|m_EvStepUnscanList
+|Step Size (eV)
+
+|#16
+|m_NoOfChannelsUnscanList
+|Number Of Channels
+
+|#17
+|m_AnalysisPeakUnscanList
+|Analysis Peak (eV)
+
+|#18
+|m_AnalysisRangeUnscanList
+|Analysis Range (eV)
+
+|#19
+|m_NoOfSweepsList
+|Number of Sweeps
+
+|#20
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#24
+|m_TimePerStepScan
+|Time Per Step: Scanned (ms)
+
+|#25
+|m_TimePerStepUnscan
+|Time Per Region: Unscanned (ms)
+
+|#26
+|m_NonEPCTimePerPixel
+|Time Per Pixel Per Region (ms)
+
+|#27
+|m_NoOfCycles
+|Number Of Cycles
+
+|#28
+|m_ExcitationSource
+|Excitation Source
+
+|#29
+|m_XRaySetting
+|X-Ray Setting Used During Acquisition
+
+|#30
+|m_DualAnodeSetting
+|Dual Anode Setting Used During Acquisition
+
+|#31
+|m_PolarNoOfAngles
+|-1
+
+|#32
+|m_PolarAngleList
+|Angles
+
+|#33
+|m_PolarCycleList
+|Cycles
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+
+|================
+=== ApplicationLog
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+
+|================
+=== AutoTool
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_Tree
+|Tree View
+
+|#1-1
+|m_Active
+|Active
+
+|#1-2
+|m_Task
+|Task
+
+|#1-3
+|m_Data
+|Data
+
+|#1-4
+|m_Summary
+|Summary
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_OptionsInsertAfter
+|Insert Before|After
+
+|#5
+|m_OptionsAutoSettings
+|Auto-Add Settings
+
+|#6
+|m_OptionsCollapseAll
+|Collapse All
+
+|#7
+|m_OptionsExpandCurrent
+|Expand Current
+
+|#8
+|m_OptionsJobHighlight
+|Highlight
+
+|#9
+|m_sLastUserRecipe
+|-1
+
+|#10
+|m_TimerDelay
+|Timer Delay (ms)
+
+|#11
+|m_AutoShow
+|Automatically show Queue status dialog
+
+|#12
+|m_AutoShowRibbon
+|Automatically show Queue status ribbon
+
+|#13
+|m_Toolkit
+|-1
+
+|#14
+|m_AutoJobname
+|Job Name
+
+|#15
+|m_AutoJobnameTemplate
+|Job Name Template
+
+|#16
+|m_AutoJobnameTechnique
+|Job Name: Technique
+
+|#17
+|m_AutoJobnameTechniqueActive
+|Job Name: Technique Active
+
+|#18
+|m_AutoJobnameAcqType
+|Job Name: Acquisition Type
+
+|#19
+|m_AutoJobnameAcqTypeActive
+|Job Name: Acq Type Active
+
+|#20
+|m_AutoJobnamePrefixName
+|Job Name: Prefix Name
+
+|#21
+|m_AutoJobnamePrefixNameActive
+|-1
+
+|#22
+|m_AutoJobnamePrefixNumber
+|Job Name: Prefix Number (increments with each new job saved)
+
+|#23
+|m_AutoJobnamePrefixNumberActive
+|-1
+
+
+|================
+=== Bake
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_BakeZone0
+|Main Chamber: Zone 0-2
+
+|#4
+|m_BakeZone1
+|Bake Zone 1
+
+|#5
+|m_BakeZone2
+|Bake Zone 2
+
+|#6
+|m_BakeZone3
+|Intro Chamber (and Prep Chamber): Zone 3
+
+|#7
+|m_BakeTimeInHr
+|Bake Time (hours)
+
+|#8
+|m_SublimateFilamentNo
+|Filament Number
+
+|#9
+|m_SublimateTimeAtCurrentInMin
+|Sublimate Time (min)
+
+|#10
+|m_SublimateCurrentInA
+|Sublimate Current (A)
+
+
+|================
+=== C6010kVIonGun
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_IonCurrentInUA
+|Ion Current at Sample (uA)
+
+|#2
+|m_SputterRate
+|Sputter Rate (Angstrom/min)
+
+|#3
+|m_TemperatureInC
+|Temperature (C)
+
+|#4
+|m_BeamInKV
+|Beam (kV)
+
+|#5
+|m_GridInV
+|Grid (V)
+
+|#6
+|m_EmissionInMa
+|Emission (mA)
+
+|#7
+|m_FilamentInA
+|Filament Limit (A)
+
+|#8
+|m_RepellorInV
+|Repellor (V)
+
+|#9
+|m_ExtractorInV
+|Extractor (V)
+
+|#10
+|m_Lens2InKV
+|Lens2 (kV)
+
+|#11
+|m_DeflectorXInV
+|Deflector X (V)
+
+|#12
+|m_DeflectorYInV
+|Deflector Y (V)
+
+|#13
+|m_SizeXInMM
+|Size X (mm)
+
+|#14
+|m_SizeYInMM
+|Size Y (mm)
+
+|#15
+|m_OffsetXInMM
+|Offset X (mm)
+
+|#16
+|m_OffsetYInMM
+|Offset Y (mm)
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_Settings
+|-1
+
+|#19
+|m_Mode
+|C60 Ion Gun Mode
+
+|#20
+|m_BeamInKVForStandby
+|Standby Beam (kV)
+
+|#21
+|m_FilamentInAForStandby
+|Standby Filament Limit (A)
+
+|#22
+|m_BlankDeflectorX
+|Blanking Deflector X
+
+|#23
+|m_BlankDeflectorY
+|Blanking Deflector Y
+
+|#24
+|m_AutoOff
+|-1
+
+|#25
+|m_AutoOffDelay
+|Switch C60 Gun Mode to Selected Mode After This Time Period of Inactivity
+
+|#26
+|m_XRasterCalib
+|Raster Calibration X
+
+|#27
+|m_YRasterCalib
+|Raster Calibration Y
+
+|#28
+|m_LifetimeTempMeterInHrs
+|Gun Temperature Over 380(C) On Time in Hours
+
+|#29
+|m_LifetimeGridCurrMeterInHrs
+|Gun Emission (Grid) Current Over 1(mA) On Time in Hours
+
+|#30
+|m_BeamSetGain
+|Set Beam Voltage Gain
+
+|#31
+|m_BeamSetOffsetInV
+|Set Beam Voltage Offset (kV)
+
+|#32
+|m_Lens2SetGain
+|Set Lens2 Voltage Gain
+
+|#33
+|m_Lens2SetOffsetInV
+|Set Lens2 Voltage Offset (kV)
+
+|#34
+|m_DeflectorXSetGain
+|Set Deflector X Gain
+
+|#35
+|m_DeflectorXSetOffsetInV
+|Set Deflector X Offset (V)
+
+|#36
+|m_DeflectorYSetGain
+|Set Deflector Y Gain
+
+|#37
+|m_DeflectorYSetOffsetInV
+|Set Deflector Y Offset (V)
+
+|#38
+|m_FilamentSetGain
+|Set Filament Current Gain
+
+|#39
+|m_FilamentSetOffsetInA
+|Set Filament Current Offset (A)
+
+|#40
+|m_EmissionCurrentSetGain
+|Set Emission Current Gain
+
+|#41
+|m_EmissionCurrentSetOffsetInMA
+|Set Emission Current Offset (mA)
+
+|#42
+|m_GridSetGain
+|Set Grid Voltage Gain
+
+|#43
+|m_GridSetOffsetInV
+|Set Grid Voltage Offset (V)
+
+|#44
+|m_RepellorSetGain
+|Set Repellor Voltage Gain
+
+|#45
+|m_RepellorSetOffsetInV
+|Set Repellor Voltage Offset (V)
+
+|#46
+|m_ExtractorSetGain
+|Set Extractor Voltage Gain
+
+|#47
+|m_ExtractorSetOffsetInV
+|Set Extractor Voltage Offset (V)
+
+|#48
+|m_TempSetGain
+|Set Temperature Gain
+
+|#49
+|m_TempSetOffsetInDeg
+|Set Temperature Offset (C)
+
+|#50
+|m_BeamVoltReadGain
+|Read Beam Voltage Gain
+
+|#51
+|m_BeamVoltReadOffsetInV
+|Read Beam Voltage Offset (kV)
+
+|#52
+|m_BeamCurrReadGain
+|Read Beam Current Gain
+
+|#53
+|m_BeamCurrReadOffsetInUA
+|Read Beam Current Offset (uA)
+
+|#54
+|m_Lens2VoltReadGain
+|Read Lens2 Voltage Gain
+
+|#55
+|m_Lens2VoltReadOffsetInV
+|Read Lens2 Voltage Offset (kV)
+
+|#56
+|m_Lens2CurrReadGain
+|Read Lens2 Current Gain
+
+|#57
+|m_Lens2CurrReadOffsetInUA
+|Read Lens2 Current Offset (uA)
+
+|#58
+|m_FilVoltReadGain
+|Read Filament Voltage Gain
+
+|#59
+|m_FilVoltReadOffsetInV
+|Read Filament Voltage Offset (V)
+
+|#60
+|m_FilCurrReadGain
+|Read Filament Current Gain
+
+|#61
+|m_FilCurrReadOffsetInA
+|Read Filament Current Offset (A)
+
+|#62
+|m_GridVoltReadGain
+|Read Grid Voltage Gain
+
+|#63
+|m_GridVoltReadOffsetInV
+|Read Grid Voltage Offset (V)
+
+|#64
+|m_GridCurrReadGain
+|Read Grid Current Gain
+
+|#65
+|m_GridCurrReadOffsetInMA
+|Read Grid Current Offset (mA)
+
+|#66
+|m_RepellorReadGain
+|Read Repellor Voltage Gain
+
+|#67
+|m_RepellorReadOffsetInV
+|Read Repellor Voltage Offset (V)
+
+|#68
+|m_ExtractorVoltReadGain
+|Read Extractor Voltage Gain
+
+|#69
+|m_ExtractorVoltReadOffsetInV
+|Read Extractor Voltage Offset (V)
+
+|#70
+|m_ExtractorCurrReadGain
+|Read Extractor Current Gain
+
+|#71
+|m_ExtractorCurrReadOffsetInMA
+|Read Extractor Current Offset (mA)
+
+|#72
+|m_TempReadGain
+|Read Temperature Gain
+
+|#73
+|m_TempReadOffsetInDeg
+|Read Temperature Offset (C)
+
+|#74
+|m_HeaterPowerReadGain
+|Read Heater Power Gain
+
+|#75
+|m_HeaterPowerReadOffsetInPercent
+|Read Heater Power Offset (%)
+
+|#76
+|m_IMeter0ReadGain
+|Read I Meter (Range 0) Gain (nA)
+
+|#77
+|m_IMeter0ReadOffsetInNA
+|Read I Meter (Range 0) Offset (nA)
+
+|#78
+|m_IMeter1ReadGain
+|Read I Meter (Range 1) Gain
+
+|#79
+|m_IMeter1ReadOffsetInNA
+|Read I Meter (Range 1) Offset (nA)
+
+|#80
+|m_FilamentOutgasTargetEmissionInMa
+|Target Emission (mA)
+
+|#81
+|m_TempRange1DataOutgas
+|Temperature (C): Range-1
+
+|#82
+|m_TempRange2DataOutgas
+|Temperature (C): Range-2
+
+|#83
+|m_TempRange3DataOutgas
+|Temperature (C): Range-3
+
+|#84
+|m_TempRange4DataOutgas
+|Temperature (C): Range-4
+
+|#85
+|m_FilamentCurrentDataOutgas
+|Filament Limit (A)
+
+|#86
+|m_AnodeDataOutgas
+|Beam (kV)
+
+|#87
+|m_Lens2VoltageDataOutgas
+|Lens2 (kV)
+
+
+|================
+=== C6020kVIonGun
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_IonCurrentInUA
+|Ion Current at Sample (uA)
+
+|#2
+|m_SputterRate
+|Sputter Rate (Angstrom/min)
+
+|#3
+|m_TemperatureInC
+|Temperature (C)
+
+|#4
+|m_BeamInKV
+|Beam (kV)
+
+|#5
+|m_GridInV
+|Grid (V)
+
+|#6
+|m_EmissionInMa
+|Emission (mA)
+
+|#7
+|m_FilamentInA
+|Filament Limit (A)
+
+|#8
+|m_RepellorInV
+|Repellor (V)
+
+|#9
+|m_ExtractorInV
+|Extractor (V)
+
+|#10
+|m_Lens2InKV
+|Lens2 (kV)
+
+|#11
+|m_BlankerInV
+|Blanker (V))
+
+|#12
+|m_DeflectorXInV
+|Deflector X (V)
+
+|#13
+|m_DeflectorYInV
+|Deflector Y (V)
+
+|#14
+|m_SizeXInMM
+|Size X (mm)
+
+|#15
+|m_SizeYInMM
+|Size Y (mm)
+
+|#16
+|m_OffsetXInMM
+|Offset X (mm)
+
+|#17
+|m_OffsetYInMM
+|Offset Y (mm)
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_Settings
+|-1
+
+|#19
+|m_Mode
+|C60 Ion Gun Mode
+
+|#20
+|m_BeamInKVForStandby
+|Standby Beam (kV)
+
+|#21
+|m_FilamentInAForStandby
+|Standby Filament Limit (A)
+
+|#22
+|m_AutoOff
+|-1
+
+|#23
+|m_AutoOffDelay
+|Switch C60 Gun Mode to Selected Mode After This Time Period of Inactivity
+
+|#24
+|m_AutoBlankDelay
+|-1
+
+|#25
+|m_XRasterCalib
+|Raster Calibration X
+
+|#26
+|m_YRasterCalib
+|Raster Calibration Y
+
+|#27
+|m_MeterInput
+|Current Meter
+
+|#28
+|m_LifetimeTempMeterInHrs
+|Gun Temperature Over 380(C) On Time in Hours
+
+|#29
+|m_LifetimeGridCurrMeterInHrs
+|Gun Emission (Grid) Current Over 1(mA) On Time in Hours
+
+|#30
+|m_BeamSetGain
+|Set Beam Voltage Gain
+
+|#31
+|m_BeamSetOffsetInV
+|Set Beam Voltage Offset (kV)
+
+|#32
+|m_BlankerVoltSetGain
+|Set Blanker Voltage Gain
+
+|#33
+|m_BlankerVoltSetOffset
+|Set Blanker Voltage Offset
+
+|#34
+|m_Lens2SetGain
+|Set Lens2 Voltage Gain
+
+|#35
+|m_Lens2SetOffsetInV
+|Set Lens2 Voltage Offset (kV)
+
+|#36
+|m_DeflectorXSetGain
+|Set Deflector X Gain
+
+|#37
+|m_DeflectorXSetOffsetInV
+|Set Deflector X Offset (V)
+
+|#38
+|m_DeflectorYSetGain
+|Set Deflector Y Gain
+
+|#39
+|m_DeflectorYSetOffsetInV
+|Set Deflector Y Offset (V)
+
+|#40
+|m_FilamentSetGain
+|Set Filament Current Gain
+
+|#41
+|m_FilamentSetOffsetInA
+|Set Filament Current Offset (A)
+
+|#42
+|m_EmissionCurrentSetGain
+|Set Emission Current Gain
+
+|#43
+|m_EmissionCurrentSetOffsetInMA
+|Set Emission Current Offset (mA)
+
+|#44
+|m_GridSetGain
+|Set Grid Voltage Gain
+
+|#45
+|m_GridSetOffsetInV
+|Set Grid Voltage Offset (V)
+
+|#46
+|m_RepellorSetGain
+|Set Repellor Voltage Gain
+
+|#47
+|m_RepellorSetOffsetInV
+|Set Repellor Voltage Offset (V)
+
+|#48
+|m_ExtractorSetGain
+|Set Extractor Voltage Gain
+
+|#49
+|m_ExtractorSetOffsetInV
+|Set Extractor Voltage Offset (V)
+
+|#50
+|m_TempSetGain
+|Set Temperature Gain
+
+|#51
+|m_TempSetOffsetInDeg
+|Set Temperature Offset (C)
+
+|#52
+|m_BeamVoltReadGain
+|Read Beam Voltage Gain
+
+|#53
+|m_BeamVoltReadOffsetInV
+|Read Beam Voltage Offset (kV)
+
+|#54
+|m_BeamCurrReadGain
+|Read Beam Current Gain
+
+|#55
+|m_BeamCurrReadOffsetInUA
+|Read Beam Current Offset (uA)
+
+|#56
+|m_BlankerVoltReadGain
+|Read Blanker Voltage Gain
+
+|#57
+|m_BlankerVoltReadOffset
+|Read Blanker Voltage Offset (kV)
+
+|#58
+|m_Lens2VoltReadGain
+|Read Lens2 Voltage Gain
+
+|#59
+|m_Lens2VoltReadOffsetInV
+|Read Lens2 Voltage Offset (kV)
+
+|#60
+|m_Lens2CurrReadGain
+|Read Lens2 Current Gain
+
+|#61
+|m_Lens2CurrReadOffsetInUA
+|Read Lens2 Current Offset (uA)
+
+|#62
+|m_FilVoltReadGain
+|Read Filament Voltage Gain
+
+|#63
+|m_FilVoltReadOffsetInV
+|Read Filament Voltage Offset (V)
+
+|#64
+|m_FilCurrReadGain
+|Read Filament Current Gain
+
+|#65
+|m_FilCurrReadOffsetInA
+|Read Filament Current Offset (A)
+
+|#66
+|m_GridVoltReadGain
+|Read Grid Voltage Gain
+
+|#67
+|m_GridVoltReadOffsetInV
+|Read Grid Voltage Offset (V)
+
+|#68
+|m_GridCurrReadGain
+|Read Grid Current Gain
+
+|#69
+|m_GridCurrReadOffsetInMA
+|Read Grid Current Offset (mA)
+
+|#70
+|m_RepellorReadGain
+|Read Repellor Voltage Gain
+
+|#71
+|m_RepellorReadOffsetInV
+|Read Repellor Voltage Offset (V)
+
+|#72
+|m_ExtractorVoltReadGain
+|Read Extractor Voltage Gain
+
+|#73
+|m_ExtractorVoltReadOffsetInV
+|Read Extractor Voltage Offset (V)
+
+|#74
+|m_ExtractorCurrReadGain
+|Read Extractor Current Gain
+
+|#75
+|m_ExtractorCurrReadOffsetInMA
+|Read Extractor Current Offset (mA)
+
+|#76
+|m_TempReadGain
+|Read Temperature Gain
+
+|#77
+|m_TempReadOffsetInDeg
+|Read Temperature Offset (C)
+
+|#78
+|m_HeaterPowerReadGain
+|Read Heater Power Gain
+
+|#79
+|m_HeaterPowerReadOffsetInPercent
+|Read Heater Power Offset (%)
+
+|#80
+|m_IMeter0ReadGain
+|Read I Meter (Range 0) Gain (nA)
+
+|#81
+|m_IMeter0ReadOffsetInNA
+|Read I Meter (Range 0) Offset (nA)
+
+|#82
+|m_IMeter1ReadGain
+|Read I Meter (Range 1) Gain
+
+|#83
+|m_IMeter1ReadOffsetInNA
+|Read I Meter (Range 1) Offset (nA)
+
+|#84
+|m_FilamentOutgasTargetEmissionInMa
+|Target Emission (mA)
+
+|#85
+|m_TempRange1DataOutgas
+|Temperature (C): Range-1
+
+|#86
+|m_TempRange2DataOutgas
+|Temperature (C): Range-2
+
+|#87
+|m_TempRange3DataOutgas
+|Temperature (C): Range-3
+
+|#88
+|m_TempRange4DataOutgas
+|Temperature (C): Range-4
+
+|#89
+|m_FilamentCurrentDataOutgas
+|Filament Limit (A)
+
+|#90
+|m_AnodeDataOutgas
+|Beam (kV)
+
+|#91
+|m_Lens2VoltageDataOutgas
+|Lens2 (kV)
+
+
+|================
+=== C60AutoStartup
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_TemperatureEnabled
+|C60 Auto Startup Enable Temperature
+
+|#4
+|m_BeamVEnabled
+|C60 Auto Startup Enable Beam Voltage
+
+|#5
+|m_FilamentEnabled
+|C60 Auto Startup Enable Filament
+
+|#6
+|m_AutoStartupFinalSetting
+|C60 Auto Startup Final Setting
+
+|#7
+|m_StartPressure
+|Auto Startup Start Pressure (Torr)
+
+|#8
+|m_MonitorMaxPressure
+|Monitor Mode Max Pressure (Torr)
+
+|#9
+|m_MonitorLowPressure
+|Monitor Mode Low Pressure (Torr)
+
+|#10
+|m_TargetTempToleranceInC
+|Temperature Temperature (C)
+
+|#11
+|m_Step0TemperatureInC
+|Step0 Temperature (C)
+
+|#12
+|m_Step1TemperatureInC
+|Step1 Temperature (C)
+
+|#13
+|m_Step2TemperatureInC
+|Step2 Temperature (C)
+
+|#14
+|m_Step3TemperatureInC
+|Step3 Temperature (C)
+
+|#15
+|m_Step4TemperatureInC
+|Step4 Temperature (C)
+
+|#16
+|m_Step0IncrementInC
+|Step0 Increment (C)
+
+|#17
+|m_Step1IncrementInC
+|Step1 Increment (C)
+
+|#18
+|m_Step2IncrementInC
+|Step2 Increment (C)
+
+|#19
+|m_Step3IncrementInC
+|Step3 Increment (C)
+
+|#20
+|m_Step4IncrementInC
+|Step4 Increment (C)
+
+|#21
+|m_Step0IntervalInMin
+|Step0 Interval (min)
+
+|#22
+|m_Step1IntervalInMin
+|Step1 Interval (min)
+
+|#23
+|m_Step2IntervalInMin
+|Step2 Interval (min)
+
+|#24
+|m_Step3IntervalInMin
+|Step3 Interval (min)
+
+|#25
+|m_Step4IntervalInMin
+|Step4 Interval (min)
+
+|#26
+|m_TemperatureStableTimeInMin
+|Temp Stabilization (min)
+
+|#27
+|m_TargetBeamVToleranceInKV
+|Beam Voltage Target Tolerance (kV)
+
+|#28
+|m_BeamVTargetInKV
+|Beam Voltage Target (kV)
+
+|#29
+|m_BeamVStepInKV
+|Beam Voltage Step (kV)
+
+|#30
+|m_BeamVIntervalInMin
+|Beam Voltage Interval (min)
+
+|#31
+|m_Lens2ToleranceInA
+|Lens2 Target Tolerance (A)
+
+|#32
+|m_Lens2TargetInKV
+|Target Lens2 (kV)
+
+|#33
+|m_Lens2StepInKV
+|Lens2 Step (kV)
+
+|#34
+|m_FilamentMaxToleranceInA
+|Max Filament Tolerance (A)
+
+|#35
+|m_FilamentMaxLimitInA
+|Filament Limit While Attempting to Reach Emmision (A)
+
+|#36
+|m_FilamentStepInA
+|Filament Step (A)
+
+|#37
+|m_FilamentIntervalInMin
+|Filament Interval (min)
+
+|#38
+|m_FilamentEmissionToleranceInMA
+|Emission Tolerance (mA)
+
+|#39
+|m_FilamentTargetEmissionInMA
+|Target Emission (mA)
+
+|#40
+|m_TargetEmissionWaitTimeInMin
+|Emission Tolerance Wait Time (min)
+
+|#41
+|m_AutoStartupProgressIntervalInMin
+|Auto Startup Progress Interval (min)
+
+
+|================
+=== Canon Camera
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ClippingTopInPixel
+|Clipping Area: Top (Pixel)
+
+|#2
+|m_ClippingLeftInPixel
+|Clipping Area: Left (Pixel)
+
+|#3
+|m_ClippingBottomInPixel
+|Clipping Area: Bottom (Pixel)
+
+|#4
+|m_ClippingRightInPixel
+|Clipping Area: Right (Pixel)
+
+|#5
+|m_CalibrateTopInPixel
+|Calibration Area: Top (Pixel)
+
+|#6
+|m_CalibrateLeftInPixel
+|Calibration Area: Left (Pixel)
+
+|#7
+|m_CalibrateBottomInPixel
+|Calibration Area: Bottom (Pixel)
+
+|#8
+|m_CalibrateRightInPixel
+|Calibration Area: Right (Pixel)
+
+|#9
+|m_AOIRightInPixel
+|AOI: Right (Pixel)
+
+|#10
+|m_AOIBottomInPixel
+|AOI: Bottom (Pixel)
+
+|#11
+|m_AOILeftInPixel
+|AOI: Left (Pixel)
+
+|#12
+|m_AOITopInPixel
+|AOI: Top (Pixel)
+
+|#13
+|m_CenterXInPixel
+|Center Marker: X (Pixel)
+
+|#14
+|m_CenterYInPixel
+|Center Marker: Y (Pixel)
+
+|#15
+|m_SamplePositionXInMm
+|Sample Position: X (mm)
+
+|#16
+|m_SamplePositionYInMm
+|Sample Position: Y (mm)
+
+|#17
+|m_CalibrateSizeXInMm
+|Calibration Size: X (mm)
+
+|#18
+|m_CalibrateSizeYInMm
+|Calibration Size: Y (mm)
+
+|#19
+|m_CalibrationPixelSizeXInMm
+|Intro Camera Pixel Size (mm): X
+
+|#20
+|m_CalibrationPixelSizeYInMm
+|Intro Camera Pixel Size (mm): Y
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_SetOverlayImage
+|Set Photo as Image Overlay
+
+|#5
+|m_PreviewScaleFactor
+|Preview Image Scale Factor
+
+|#6
+|m_Orientation
+|Orientation
+
+|#7
+|m_SaveIntroPhotoAsHighResBitmap
+|Save Intro Photo As .bmp File
+
+|#8
+|m_SaveIntroPhotoAsJpeg
+|Save Intro Photo As .jpg File
+
+|#9
+|m_Aperture
+|Aperture Setting
+
+|#10
+|m_ShutterSpeed
+|Shutter Speed
+
+|#11
+|m_WhiteBalance
+|White Balance
+
+
+|================
+=== ChamberCamera
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_CameraFrameRate
+|Chamber Camera Frame Rate (frame/s)
+
+|#4
+|m_CameraVideoFormat
+|Chamber Camera Video Format
+
+|#5
+|m_CameraZoomFactor
+|Chamber Camera Zoom Factor
+
+|#6
+|m_CameraGamma
+|Chamber Camera Gamma
+
+|#7
+|m_CameraHue
+|Chamber Camera Hue
+
+|#8
+|m_CameraSaturation
+|Chamber Camera Saturation
+
+|#9
+|m_CameraFrameFlip
+|Enable Mirror Image
+
+|#10
+|m_CameraCenterImage
+|Center Chamber Camera Image
+
+|#11
+|m_ShowCenterMark
+|Show Center Mark
+
+
+|================
+=== Coffee Timer
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_CoffeeTimerRecipeNameList
+|AutoTool Task List
+
+|#4
+|m_CoffeeTimerRecipeEnabledList
+|Active
+
+|#5
+|m_CoffeeTimerRecipeOnceList
+|Once
+
+|#6
+|m_CoffeeTimerStartTimeHourList
+|Start Time Hour
+
+|#7
+|m_CoffeeTimerStartTimeMinuteList
+|Start Time Minute
+
+|#8
+|m_CoffeeTimerLastExecutionTime
+|Last Execution Time
+
+
+|================
+=== Colors
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_PositionActiveColor
+|Color of active positions
+
+|#4
+|m_PositionInactiveColor
+|Color of inactive positions
+
+|#5
+|m_PlatenThumbnailCaptionColor
+|Color of platen thumbnail label
+
+|#6
+|m_PlatenCaptionColor
+|Color of platen position labels
+
+|#7
+|m_PlatenStageTarPosMarkerColor
+|Color of stage target position marker
+
+|#8
+|m_PlatenFOVMarkerColor
+|Color of platen field of view marker
+
+|#9
+|m_PlatenStageLimitsColor
+|Color of platen stage limits box
+
+|#10
+|m_PlatenZalarLimitsColor
+|Color of platen zalar limits circle
+
+|#11
+|m_PlatenBeamSizeColor
+|Color of platen beam size circle
+
+|#12
+|m_DataBackgroundColor
+|Data Background Color
+
+|#13
+|m_DataColor1
+|Data Curve Color 1
+
+|#14
+|m_DataColor2
+|Data Curve Color 2
+
+|#15
+|m_DataColor3
+|Data Curve Color 3
+
+|#16
+|m_DataColor4
+|Data Curve Color 4
+
+|#17
+|m_DataColor5
+|Data Curve Color 5
+
+|#18
+|m_DataColor6
+|Data Curve Color 6
+
+|#19
+|m_DataColor7
+|Data Curve Color 7
+
+|#20
+|m_DataColor8
+|Data Curve Color 8
+
+|#21
+|m_DataColor9
+|Data Curve Color 9
+
+|#22
+|m_DataColor10
+|Data Curve Color 10
+
+|#23
+|m_DataColor11
+|Data Curve Color 11
+
+|#24
+|m_DataColor12
+|Data Curve Color 12
+
+|#25
+|m_DataColor13
+|Data Curve Color 13
+
+|#26
+|m_DataColor14
+|Data Curve Color 14
+
+|#27
+|m_DataColor15
+|Data Curve Color 15
+
+|#28
+|m_DataColor16
+|Data Curve Color 16
+
+|#29
+|m_DataColor17
+|Data Curve Color 17
+
+|#30
+|m_DataColor18
+|Data Curve Color 18
+
+|#31
+|m_DataColor19
+|Data Curve Color 19
+
+|#32
+|m_DataColor20
+|Data Curve Color 20
+
+
+|================
+=== DatabaseManager
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_ArchiveDirectory
+|Directory to use for historical database backups
+
+|#4
+|m_ActiveDatabaseRetentionInDays
+|Active Database Retention Time (Days)
+
+|#5
+|m_ArchiveTimeHour
+|Hour of the day to perform the database archive
+
+|#6
+|m_ArchiveTimeMinute
+|Minute of the hour to perform the database archive
+
+|#7
+|m_ActiveDatabaseSizeInMB
+|The size of the Active Database in MB.
+
+|#8
+|m_ActiveDatabaseWalFileSizeInMB
+|The size of the WAL File for the Active Database in MB.
+
+|#9
+|m_ArchiveDatabaseSizeInMB
+|The size of the Archive Database in MB.
+
+|#10
+|m_PrimaryDriveSpaceInGB
+|The available space in GB of the primary Drive.
+
+|#11
+|m_DataDriveSpaceInGB
+|The available space in GB of the data Drive.
+
+
+|================
+=== DataManager
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_CDate
+|-1
+
+|#2
+|m_CName
+|-1
+
+|#3
+|m_CCompany
+|-1
+
+|#4
+|m_CAddress1
+|-1
+
+|#5
+|m_CAddress2
+|-1
+
+|#6
+|m_CCity
+|-1
+
+|#7
+|m_CState
+|-1
+
+|#8
+|m_CCountry
+|-1
+
+|#9
+|m_CZip
+|-1
+
+|#10
+|m_CEMail
+|-1
+
+|#11
+|m_CPhone
+|-1
+
+|#12
+|m_CFax
+|-1
+
+|#13
+|m_UserName
+|-1
+
+|#14
+|m_UserCompany
+|-1
+
+|#15
+|m_LabFileName
+|-1
+
+|#16
+|m_LabFileTechnique
+|-1
+
+|#17
+|m_LabFileType
+|-1
+
+|#18
+|m_LabComment
+|-1
+
+|#19
+|m_LabDefectFileName
+|-1
+
+|#20
+|m_LabDefectId
+|-1
+
+|#21
+|m_LabDefectU
+|-1
+
+|#22
+|m_LabDefectV
+|-1
+
+|#23
+|m_LabDefectX
+|-1
+
+|#24
+|m_LabDefectY
+|-1
+
+|#25
+|m_AcqDirectory
+|Acquisition Directory
+
+|#26
+|m_BaseDirectory
+|Base Directory
+
+|#27
+|m_AutoFilenamePrefix
+|Auto Filename: Prefix
+
+|#28
+|m_AutoFilenameNumber
+|Auto Filename: Number (Increments with each file saved)
+
+|#29
+|m_AutoCommentPrefix
+|Auto Comment: Prefix
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_Directory
+|Browse Directory
+
+|#5
+|m_Filter
+|-1
+
+|#6
+|m_AutoFilenamePlatenNameActive
+|Auto Filename: Sample Name
+
+|#7
+|m_AutoFilenamePositionIDActive
+|Auto Filename: Position List-ID
+
+|#8
+|m_AutoFilenamePositionNameActive
+|Auto Filename: Position List-Name
+
+|#9
+|m_AutoFilenameDateActive
+|Auto Filename: Date Active
+
+|#10
+|m_AutoFilenameTimeActive
+|Auto Filename: Time
+
+|#11
+|m_AutoFilenameTechniqueActive
+|Auto Filename: Technique
+
+|#12
+|m_AutoFilenameFieldDelimiter
+|Auto Filename: Field Delimiter
+
+|#13
+|m_AutoFilenameDigitsInNumber
+|Auto Filename: Digits in Number
+
+|#14
+|m_AutoCommentWaferActive
+|Sample Summary
+
+|#15
+|m_AutoCommentDefectActive
+|Position List Summary
+
+|#16
+|m_AutoCommentAcquisitionActive
+|Acquisition Summary
+
+|#17
+|m_AutoCommentFieldDelimiter
+|Auto Comment: Field Delimiter
+
+|#18
+|m_AutoDirectoryActive
+|Activate/Deactivate 'Auto' Directory
+
+|#19
+|m_AutoDirectoryYearActive
+|Auto Directory: Year
+
+|#20
+|m_AutoDirectoryMonthActive
+|Auto Directory: Month
+
+|#21
+|m_AutoDirectoryDayActive
+|Auto Directory: Day
+
+|#22
+|m_AutoCloseLastFile
+|Auto-Close Last Acquisition File
+
+
+|================
+=== DataSamplingManager
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+
+|================
+=== Deconvolution
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_DeconvolutionActive
+|Deconvolution
+
+|#4
+|m_TargetPassEnergy
+|Target Pass Energy
+
+
+|================
+=== Detector
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_XRaySetting
+|X-Ray Setting Used During Detector Acquisitions
+
+|#4
+|m_SEMSetting
+|SEM Setting Used During Detector Acquisitions
+
+|#5
+|m_MultiplierVoltage
+|Multiplier Voltage Used During Acquire (V)
+
+|#6
+|m_LensBiasVoltage
+|Multiplier Offset Voltage During SXI (V)
+
+|#7
+|m_EMSLowerLimitInV
+|Lower Limit (V)
+
+|#8
+|m_EMSUpperLimitInV
+|Upper Limit (V)
+
+|#9
+|m_EMSTimePerStepInMS
+|Time Per Step (ms)
+
+|#10
+|m_EMSStepSizeInV
+|Step Size (V)
+
+|#11
+|m_EMSFOVinUM
+|EMS Acquisition FOV (um)
+
+|#12
+|m_MCDUseEnergyOffsets
+|Use MCD Energy Offsets
+
+|#13
+|m_MCDResolution
+|MCD Energy Resolution (%)
+
+|#14
+|m_MCDLowerLimitInEv
+|Lower Limit (eV)
+
+|#15
+|m_MCDUpperLimitInEv
+|Upper Limit (eV)
+
+|#16
+|m_MCDTimePerStepInMs
+|Time Per Step (ms)
+
+|#17
+|m_MCDStepSizeInEv
+|Step Size (eV)
+
+|#18
+|m_MCDNoOfCycles
+|Number Of Cycles
+
+|#19
+|m_AESChEnergyOffsetPt05
+|AES Channel Offset
+
+|#20
+|m_AESChEnergyOffsetPt1
+|AES Channel Offset
+
+|#21
+|m_AESChEnergyOffsetPt2
+|AES Channel Offset
+
+|#22
+|m_AESChEnergyOffsetPt4
+|AES Channel Offset
+
+|#23
+|m_AESChEnergyOffsetPt6
+|AES Channel Offset
+
+|#24
+|m_ChActive
+|Channel Active
+
+|#25
+|m_ChOffset
+|Channel Offset
+
+|#26
+|m_ChCounts
+|Channel Counts
+
+|#27
+|m_DetectorTime
+|Detector Time (sec)
+
+|#28
+|m_DetAcqFOVinUM
+|Detector Factors Acquisition FOV (um)
+
+
+|================
+=== DualSource
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_AnodeSelection
+|Anode Selection
+
+|#2
+|m_AnodeBoth
+|Anode Both
+
+|#3
+|m_Anode1Power
+|Anode 1 Power (W)
+
+|#4
+|m_Anode1ExtendedEnergyRange
+|When checked, a larger binding energy acquisition range is available. Some pass energies and energy step sizes may not be available. This option only applies to Al or Mg anode materials. 
+
+|#5
+|m_Anode2Power
+|Anode 2 Power (W)
+
+|#6
+|m_Anode2ExtendedEnergyRange
+|When checked, a larger binding energy acquisition range is available. Some pass energies and energy step sizes may not be available. This option only applies to Al or Mg anode materials.
+
+|#7
+|m_BeamVoltageInV
+|Beam Voltage(V)
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_Settings
+|-1
+
+|#7
+|m_Anode1Material
+|Anode #1 Material
+
+|#8
+|m_Anode1Energy
+|Anode 1 Photon Energy (eV)
+
+|#9
+|m_Anode2Material
+|Anode #2 Material
+
+|#10
+|m_Anode2Energy
+|Anode 2 Photon Energy (eV)
+
+|#11
+|m_AnodePowerLimit
+|Anode Power Limit (W)
+
+|#12
+|m_AnodePowerLimitCombined
+|Anode Power Limit (Both) (W)
+
+|#13
+|m_Filament1Current
+|Filament 1 Current (A)
+
+|#14
+|m_Filament2Current
+|Filament 2 Current (A)
+
+
+|================
+=== EGunNeut
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_EmAutoMode
+|Emission Current Mode
+
+|#2
+|m_BiasInV
+|Bias Voltage
+
+|#3
+|m_ExtractorInV
+|Extractor Voltage
+
+|#4
+|m_EmissionInuA
+|Emission Current in uA
+
+|#5
+|m_FilamentInA
+|Filament Current in A
+
+|#6
+|m_XSteeringPercent
+|X Steering Percent
+
+|#7
+|m_YSteeringPercent
+|Y Steering Percent
+
+|#8
+|m_Gain
+|Gain
+
+|#9
+|m_TimeStepInMS
+|Time per Step in ms
+
+|#10
+|m_RampRateInAPerS
+|Ramp Rate in A/s
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_Settings
+|-1
+
+|#19
+|m_SWLimitInA
+|Software Current Limit in A
+
+|#20
+|m_ReadFilOnTimeInHr
+|E-Neut Filament Usage (hr)
+
+|#21
+|m_WorkFunction
+|Cathode Work Function
+
+|#22
+|m_PulseLength
+|SXI Pulse Length (ms)
+
+|#23
+|m_PulseFrequency
+|SXI Pulse Frequency (number of frames)
+
+|#24
+|m_ReqNeutTolerance
+|Abort Acquisition if the E-Neut is Out of Tolerance
+
+|#25
+|m_AutoOff
+|-1
+
+|#26
+|m_AutoOffDelay
+|Shutdown the E-Neut After This Time Period of Inactivity
+
+|#27
+|m_StandbyExtractorBlankInV
+|Standby Extractor Blanking Voltage (V)
+
+|#28
+|m_MaxWaitTimeReachToleranceInS
+|Maximum Wait Time for Emission or Filament to Reach Tolerance(sec)
+
+|#29
+|m_BaOFilament1DataOutgas
+|BaO Filament Current in A: Range-1
+
+|#30
+|m_BaOFilament2DataOutgas
+|BaO Filament Current in A: Range-2
+
+|#31
+|m_BaOFilament3DataOutgas
+|BaO Filament Current in A: Range-3
+
+|#32
+|m_BaOFilament4DataOutgas
+|BaO Filament Current in A: Range-4
+
+|#33
+|m_BaOBiasDataOutgas
+|BaO Bias Voltage
+
+|#34
+|m_BaOExtractorDataOutgas
+|BaO Extractor Voltage
+
+
+|================
+=== GCIB
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_FilamentInA
+|Filament (A)
+
+|#2
+|m_IonizationInV
+|Ionization (V)
+
+|#3
+|m_BeamInKv
+|Beam (kV)
+
+|#4
+|m_ExtractorInKV
+|Extractor (kV)
+
+|#5
+|m_FocusInPct
+|Focus (%)
+
+|#6
+|m_ObjectiveInPct
+|Objective (%)
+
+|#7
+|m_MagnetInA
+|Magnet (A) only available with GCIB Gun Type 06-2000
+
+|#8
+|m_BendInV
+|Bend (V)
+
+|#9
+|m_WienDeflectionInV
+|Wien Deflection (V)
+
+|#10
+|m_EmissionInMA
+|Emission (mA)
+
+|#11
+|m_ScanXInMm
+|Raster Size X(mm)
+
+|#12
+|m_ScanYInMm
+|Raster Size Y (mm)
+
+|#13
+|m_OffsetXInMm
+|Raster Offset (mm) X
+
+|#14
+|m_OffsetYInMm
+|Raster Offset (mm) Y
+
+|#15
+|m_PressureInKPa
+|Target Pressure  (kPa)
+
+|#16
+|m_ClusterSizeAtoms
+|Cluster Size (atom)
+
+|#17
+|m_ClusterSizeEnergyPerAtom
+|Cluster Size (eV/atom))
+
+|#18
+|m_IonCurrentInUa
+|Ion Current (uA)
+
+|#19
+|m_SputterRate
+|Sputter Rate (Angstrom/min)
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_Settings
+|-1
+
+|#19
+|m_ModeToOffOnShutdown
+|GCIB Turned Off On Shutdown
+
+|#20
+|m_FilamentLimitInA
+|Filament Limit (A)
+
+|#21
+|m_ScanCalibrationX
+|X Raster Calibration
+
+|#22
+|m_ScanCalibrationY
+|Y Raster Calibration
+
+|#23
+|m_AtmosphericPressureInKPa
+|Atmospheric Pressure (kPa)
+
+|#24
+|m_PressurePollingIntervalInSec
+|-1
+
+|#25
+|m_PressureControl
+|Pressure Control On
+
+|#26
+|m_VacuumInterlockEnable
+|Vacuum Interlock Enable
+
+|#27
+|m_MainTurboInterlockEnable
+|Main Turbo Interlock Enable
+
+|#28
+|m_HeatExchangerInterlockEnable
+|Heat Exchanger Interlock Enable
+
+|#29
+|m_AutoShutdownMode
+|Auto Shutdown
+
+|#30
+|m_AutoShutdownDelay
+|Shutdown GCIB when idle
+
+|#31
+|m_FilamentLifetimeInHrs
+|GCIB Filament Lifetime (hr)
+
+|#32
+|m_FilamentCurrentRange1DataOutgas
+|Filament Limit (A): Range-1
+
+|#33
+|m_FilamentCurrentRange2DataOutgas
+|Filament Limit (A): Range-2
+
+|#34
+|m_BeamEnergyDataOutgas
+|Beam (kV)
+
+|#35
+|m_BeamEnergyDataOutgas_MonitorBeamCurrentThresholdInUa
+|-1
+
+
+|================
+=== GigE Camera
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ClippingTopInPixel
+|Clipping Area: Top (Pixel)
+
+|#2
+|m_ClippingLeftInPixel
+|Clipping Area: Left (Pixel)
+
+|#3
+|m_ClippingBottomInPixel
+|Clipping Area: Bottom (Pixel)
+
+|#4
+|m_ClippingRightInPixel
+|Clipping Area: Right (Pixel)
+
+|#5
+|m_CalibrateTopInPixel
+|Calibration Area: Top (Pixel)
+
+|#6
+|m_CalibrateLeftInPixel
+|Calibration Area: Left (Pixel)
+
+|#7
+|m_CalibrateBottomInPixel
+|Calibration Area: Bottom (Pixel)
+
+|#8
+|m_CalibrateRightInPixel
+|Calibration Area: Right (Pixel)
+
+|#9
+|m_AOIRightInPixel
+|AOI: Right (Pixel)
+
+|#10
+|m_AOIBottomInPixel
+|AOI: Bottom (Pixel)
+
+|#11
+|m_AOILeftInPixel
+|AOI: Left (Pixel)
+
+|#12
+|m_AOITopInPixel
+|AOI: Top (Pixel)
+
+|#13
+|m_CenterXInPixel
+|Center Marker: X (Pixel)
+
+|#14
+|m_CenterYInPixel
+|Center Marker: Y (Pixel)
+
+|#15
+|m_SamplePositionXInMm
+|Sample Position: X (mm)
+
+|#16
+|m_SamplePositionYInMm
+|Sample Position: Y (mm)
+
+|#17
+|m_CalibrateSizeXInMm
+|Calibration Size: X (mm)
+
+|#18
+|m_CalibrateSizeYInMm
+|Calibration Size: Y (mm)
+
+|#19
+|m_CalibrationPixelSizeXInMm
+|Intro Camera Pixel Size (mm): X
+
+|#20
+|m_CalibrationPixelSizeYInMm
+|Intro Camera Pixel Size (mm): Y
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_SetOverlayImage
+|Set Photo as Image Overlay
+
+|#5
+|m_PreviewScaleFactor
+|Preview Image Scale Factor
+
+|#6
+|m_Orientation
+|Orientation
+
+|#7
+|m_SaveIntroPhotoAsHighResBitmap
+|Save Intro Photo As .bmp File
+
+|#8
+|m_SaveIntroPhotoAsJpeg
+|Save Intro Photo As .jpg File
+
+|#9
+|m_LEDLightAuto
+|LED Lights w/Take Picture
+
+|#10
+|m_GammaEnable
+|Gamma Enable
+
+|#11
+|m_AutoExposure
+|Auto Exposure
+
+|#12
+|m_AutoWhiteBalance
+|Auto White Balance
+
+
+|================
+=== Hardware Manager
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+
+|================
+=== Health Check
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_HighlightMode
+|Highlight
+
+
+|================
+=== History Chart
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_DocNameList
+|-1
+
+|#2
+|m_ParameterNameList
+|-1
+
+|#3
+|m_ActiveList
+|Active
+
+|#4
+|m_VisibleList
+|Show
+
+|#5
+|m_ScaleFactorList
+|Scale Factor
+
+|#6
+|m_ColorList
+|Graph Color
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_AutoScale
+|Auto Scale
+
+|#5
+|m_ChartBackgroundColor
+|Axis Background Color
+
+|#6
+|m_ChartGridLineHorz
+|Horizontal Grid Lines
+
+|#7
+|m_ChartGridLineVert
+|Vertical Grid Lines
+
+|#8
+|m_ChartYAxisLabel
+|Y-Axis Label
+
+|#9
+|m_ChartTimeInMin
+|Chart Recorder Time Limit
+
+|#10
+|m_SeriesLineWidth
+|Line Width
+
+|#11
+|m_SeriesLineMarkerStyle
+|Marker Style
+
+|#12
+|m_SeriesLastCountsVisible
+|Display data counts label on curve
+
+|#13
+|m_CurrentSeriesLineWidth
+|Current Line Width
+
+|#14
+|m_CurrentSeriesLineMarkerStyle
+|Current Marker Style
+
+|#15
+|m_CurrentSeriesLastCountsVisible
+|Display data counts label on curve
+
+
+|================
+=== HotColdControl
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_TargetTemperature
+|Target Temperature(C)
+
+|#7
+|m_PIDList
+|PID List
+
+|#8
+|m_TimeoutInMin
+|Maximum heater on time (min)
+
+|#9
+|m_MinTemperatureHot
+|Minimum Temperature: Hot (C)
+
+|#10
+|m_MaxTemperatureHot
+|Maximum Temperature: Hot (C)
+
+|#11
+|m_WarningTemperatureHot
+|Warning Temperature: Hot (C)
+
+|#12
+|m_MinTemperatureHotCold
+|Minimum Temperature: Hot/Cold (C)
+
+|#13
+|m_MaxTemperatureHotCold
+|Maximum Temperature: Hot/Cold (C)
+
+|#14
+|m_WarningTemperatureHotCold
+|Warning Temperature: Hot/Cold (C)
+
+
+|================
+=== IonGun
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_IonSpecies
+|Ion Species
+
+|#2
+|m_IonCurrent
+|Ion Current (uA)
+
+|#3
+|m_SputterRate
+|Sputter Rate (Angstrom/min)
+
+|#4
+|m_Emission
+|Emission Current (mA)
+
+|#5
+|m_TargetEmission
+|Target Emission Current(mA)
+
+|#6
+|m_BeamkV
+|Beam Voltage (kV)
+
+|#7
+|m_GridV
+|Grid Supply (V)
+
+|#8
+|m_FloatV
+|Float (V)
+
+|#9
+|m_FloatEnable
+|Float Enable
+
+|#10
+|m_ExtractorPressure
+|Extractor Pressure (mPa)
+
+|#11
+|m_DeflectionBiasV
+|Deflection Bias (V)
+
+|#12
+|m_Condenser
+|Condenser (V)
+
+|#13
+|m_Objective
+|Objective (V)
+
+|#14
+|m_BendVoltage
+|Bend (V)
+
+|#15
+|m_XRaster
+|X Raster Size (mm)
+
+|#16
+|m_YRaster
+|Y Raster Size (mm)
+
+|#17
+|m_XRasterOffset
+|X Raster Offset (mm)
+
+|#18
+|m_YRasterOffset
+|Y Raster Offset (mm)
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_Settings
+|-1
+
+|#19
+|m_NeutralizeSetting
+|-1
+
+|#20
+|m_PressureControl
+|Pressure Control On
+
+|#21
+|m_PressureControlAuto
+|Auto-Start Pressure Control w/Ion Gun State
+
+|#22
+|m_PressurePIDGainP
+|Proportional (P) Gain
+
+|#23
+|m_PressurePIDGainI
+|Integral (I) Gain
+
+|#24
+|m_PressurePIDGainD
+|Derivative (D) Gain
+
+|#25
+|m_FilamentTimerTotal
+|Total Filament Usage (hr)
+
+|#26
+|m_Fig5BlankAllowed
+|Blank mode allowed with Fig-5 Ion Gun
+
+|#27
+|m_Tracking
+|Tracking
+
+|#28
+|m_XRasterCalib
+|X Raster Calibration
+
+|#29
+|m_YRasterCalib
+|Y Raster Calibration
+
+|#30
+|m_RasterPattern
+|Raster Pattern
+
+|#31
+|m_RasterMode
+|Raster Mode
+
+|#32
+|m_DiffPumpAuto
+|Auto-Start Diff Pump w/Ion Gun State
+
+|#33
+|m_ArgonLeakAuto
+|Auto-Start Gas Leak w/Ion Gun State
+
+|#34
+|m_ArgonWaitAuto
+|Delay argon leak until first usage of ion gun
+
+|#35
+|m_EDSWarning
+|'Retrace EDS Detector' Warning Message
+
+|#36
+|m_BlankEBeamSputter
+|Blank Electron Beam When Ion Gun is Sputter
+
+|#37
+|m_AutoOff
+|Auto Shutdown
+
+|#38
+|m_AutoOffDelay
+|Shutdown the Ion Gun After This Time Period of Inactivity
+
+|#39
+|m_BeamEnergyDataOutgas
+|Beam Voltage (kV)
+
+|#40
+|m_EmissionRange1DataOutgas
+|Target Emission Current(mA): Range-1
+
+|#41
+|m_EmissionRange2DataOutgas
+|Target Emission Current(mA): Range-2
+
+|#42
+|m_EmissionRange3DataOutgas
+|Target Emission Current(mA): Range-3
+
+|#43
+|m_EmissionRange4DataOutgas
+|Target Emission Current(mA): Range-4
+
+
+|================
+=== LEIPSAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ENeutSetting
+|E-Neut Setting
+
+|#2
+|m_AcqLowerLimit
+|Sample Bias: Lower (V)
+
+|#3
+|m_AcqUpperLimit
+|Sample Bias: Upper (V)
+
+|#4
+|m_StepSizeInV
+|Step Size (V)
+
+|#5
+|m_TimePerStep
+|Time Per Step (ms)
+
+|#6
+|m_NoOfCycles
+|Number Of Cycles
+
+|#7
+|m_FilterType
+|Band Pass Filter Type
+
+|#8
+|m_FilterEnergy
+|Band Pass Filter Energy
+
+|#9
+|m_AmmeterRange
+|Picoammeter Range
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_FilterTypeList
+|Band Pass Filter Type List
+
+|#5
+|m_FilterEnergyList
+|Band Pass Filter Energy List
+
+|#6
+|m_RefreshSampleBiasInV
+|Refresh Acq: Sample Bias (V)
+
+|#7
+|m_PMTAutoState
+|PMT Auto State
+
+
+|================
+=== LineAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_AnalyzerMode
+|Line acquisitions only support the unscanned mode
+
+|#2
+|m_AnalyzerFRRFATMode
+|Analyzer FRR/FAT Mode
+
+|#3
+|m_ActiveList
+|Active Region
+
+|#4
+|m_IRActiveList
+|Image Registration
+
+|#5
+|m_AtomicNoList
+|-1
+
+|#6
+|m_ElementList
+|Transition Name
+
+|#7
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#8
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#9
+|m_RangeList
+|Acquisition Range (eV)
+
+|#10
+|m_EvStepList
+|Step Size (eV)
+
+|#11
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#12
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#13
+|m_PeakUnscanList
+|Acquisition Peak (eV)
+
+|#14
+|m_RangeUnscanList
+|Acquisition Range (eV)
+
+|#15
+|m_EvStepUnscanList
+|Step Size (eV)
+
+|#16
+|m_NoOfChannelsUnscanList
+|Number Of Channels
+
+|#17
+|m_AnalysisPeakUnscanList
+|Analysis Peak (eV)
+
+|#18
+|m_AnalysisRangeUnscanList
+|Analysis Range (eV)
+
+|#19
+|m_NoOfSweepsList
+|Number of Sweeps
+
+|#20
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#24
+|m_TimePerStepScan
+|Time Per Step: Scanned (ms)
+
+|#25
+|m_TimePerStepUnscan
+|Time Per Region: Unscanned (ms)
+
+|#26
+|m_NonEPCTimePerPixel
+|Time Per Pixel Per Region (ms)
+
+|#27
+|m_NoOfCycles
+|Number Of Cycles
+
+|#28
+|m_ExcitationSource
+|Excitation Source
+
+|#29
+|m_XRaySetting
+|X-Ray Setting Used During Acquisition
+
+|#30
+|m_DualAnodeSetting
+|Dual Anode Setting Used During Acquisition
+
+|#31
+|m_Resolution
+|-1
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+
+|================
+=== MapAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_AnalyzerMode
+|Map acquisitions only support the unscanned mode
+
+|#2
+|m_AnalyzerFRRFATMode
+|Analyzer FRR/FAT Mode
+
+|#3
+|m_ActiveList
+|Active Region
+
+|#4
+|m_IRActiveList
+|Image Registration
+
+|#5
+|m_AtomicNoList
+|-1
+
+|#6
+|m_ElementList
+|Transition Name
+
+|#7
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#8
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#9
+|m_RangeList
+|Acquisition Range (eV)
+
+|#10
+|m_EvStepList
+|Step Size (eV)
+
+|#11
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#12
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#13
+|m_PeakUnscanList
+|Acquisition Peak (eV)
+
+|#14
+|m_RangeUnscanList
+|Acquisition Range (eV)
+
+|#15
+|m_EvStepUnscanList
+|Step Size (eV)
+
+|#16
+|m_NoOfChannelsUnscanList
+|Number Of Channels
+
+|#17
+|m_AnalysisPeakUnscanList
+|Analysis Peak (eV)
+
+|#18
+|m_AnalysisRangeUnscanList
+|Analysis Range (eV)
+
+|#19
+|m_NoOfSweepsList
+|Number of Frames
+
+|#20
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#24
+|m_TimePerStepScan
+|Time Per Step: Scanned (ms)
+
+|#25
+|m_TimePerStepUnscan
+|Time Per Region: Unscanned (ms)
+
+|#26
+|m_NonEPCTimePerPixel
+|Time Per Pixel Per Region (ms)
+
+|#27
+|m_NoOfCycles
+|Number Of Cycles
+
+|#28
+|m_ExcitationSource
+|Excitation Source
+
+|#29
+|m_XRaySetting
+|X-Ray Setting Used During Acquisition
+
+|#30
+|m_DualAnodeSetting
+|Dual Anode Setting Used During Acquisition
+
+|#31
+|m_FramesPerFCC
+|-1
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+
+|================
+=== MapData
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_TileDataMode
+|-1
+
+|#4
+|m_Colormap
+|Color Map
+
+|#5
+|m_ImageViewerOrientation
+|Image Viewer Orientation
+
+
+|================
+=== MessageControl
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_IPAddress
+|-1
+
+|#4
+|m_PortNo
+|Port No
+
+
+|================
+=== Mosaic Area
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_MosaicNumberOfTilesInX
+|Number Of Tiles: X
+
+|#2
+|m_MosaicNumberOfTilesInY
+|Number Of Tiles: Y
+
+|#3
+|m_MosaicInactiveTiles
+|-1
+
+|#4
+|m_MosaicTileSizeInMm
+|Tile Size (mm)
+
+|#5
+|m_MosaicTileSizeYInMm
+|Tile Size (mm): Y
+
+|#6
+|m_MosaicCenterXInMm
+|Mosaic Center X (mm)
+
+|#7
+|m_MosaicCenterYInMm
+|Mosaic Center Y (mm)
+
+|#8
+|m_MosaicStageRotationInDeg
+|Rotation (deg)
+
+|#9
+|m_ReferenceImageSizeXInUm
+|Reference Image Size (um): X
+
+|#10
+|m_ReferenceImageSizeYInUm
+|Reference Image Size (um): Y
+
+|#11
+|m_ReferenceImageOverlapInPct
+|Image Overlap (%)
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_MosaicMaximumNumberOfTiles
+|Maximum Number Of Tiles
+
+|#4
+|m_AutoDirectoryPrefix
+|Mosaic Directory Name
+
+|#5
+|m_AutoDirectoryNumber
+|Mosaic Directory Number
+
+
+|================
+=== MultiLanguage
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_CaptionLanguageFile
+|Caption Language File
+
+|#4
+|m_HintLanguageFile
+|Hint Language File
+
+|#5
+|m_DialogLanguageFile
+|Dialog Language File
+
+
+|================
+=== Navigate
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_WaferMap
+|-1
+
+|#2
+|m_Fov
+|Field Of View: X (mm)
+
+|#3
+|m_WaferDefect
+|-1
+
+|#3-1
+|m_ReferenceImage
+|Reference Image
+
+|#3-2
+|m_Active
+|Active
+
+|#3-3
+|m_Id
+|Area ID
+
+|#3-4
+|m_DefectName
+|Name
+
+|#3-5
+|m_Comment
+|Comment
+
+|#3-6
+|m_AreaType
+|Area Type
+
+|#3-7
+|m_AlignType
+|Alignment Type
+
+|#3-8
+|m_ImageFilename
+|Image Filename
+
+|#3-9
+|m_ReferenceImageFilename
+|Reference Image
+
+|#3-10
+|m_StageX
+|Stage X (mm)
+
+|#3-11
+|m_StageY
+|Stage Y (mm)
+
+|#3-12
+|m_StageZ
+|Stage Z (mm)
+
+|#3-13
+|m_StageR
+|Stage R (deg)
+
+|#3-14
+|m_StageT
+|Stage T (deg)
+
+|#3-15
+|m_PositionUL_WaferU
+|Wafer U
+
+|#3-16
+|m_PositionUL_WaferV
+|Wafer V
+
+|#3-17
+|m_PositionLR_WaferU
+|Wafer U
+
+|#3-18
+|m_PositionLR_WaferV
+|Wafer V
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_DefectFileName
+|-1
+
+|#5
+|m_DefaultPointSizeX
+|Default Point Size X (um)
+
+|#6
+|m_DefaultPointSizeY
+|Default Point Size Y (um)
+
+|#7
+|m_DefaultAreaSizeX
+|Default Area Size X (um)
+
+|#8
+|m_DefaultAreaSizeY
+|Default Area Size Y (um)
+
+|#9
+|m_DefaultLineSizeX
+|Default Line Size X (um)
+
+|#10
+|m_DefaultLineSizeY
+|Default Line Size Y (um)
+
+|#11
+|m_DefaultHpSizeX
+|Default HP Size X (um)
+
+|#12
+|m_DefaultHpSizeY
+|Default HP Size Y (um)
+
+|#13
+|m_ValidStagePositionToleranceInUm
+|-1
+
+|#14
+|m_GoogleBarVisible
+|Wafer Map Toolbar
+
+|#15
+|m_DefaultMaxZHeight25mm
+|Default Max ZHeight 25mm (mm)
+
+|#16
+|m_DefaultMaxZHeight38mm
+|Default Max ZHeight 38mm (mm)
+
+|#17
+|m_DefaultMaxZHeightAngle
+|Default Max ZHeight Angle (mm)
+
+|#18
+|m_DefaultMaxZHeight60mm
+|Default Max ZHeight 60mm (mm)
+
+|#19
+|m_DefaultMaxZHeightIPES
+|Default Max ZHeight LEIPS (mm)
+
+|#20
+|m_AlignmentPattern
+|Alignment Pattern
+
+|#21
+|m_AlignmentMark
+|Alignment Mark
+
+|#22
+|m_AlignType
+|-1
+
+|#23
+|m_AlignPinLowMag
+|-1
+
+|#24
+|m_AlignPinHighMag
+|-1
+
+|#25
+|m_AlignPinSps
+|-1
+
+|#26
+|m_AlignPinVisible
+|Show Alignment Pins
+
+|#27
+|m_EstTimePerPosMoveInMin
+|Estimated Time Per Position Move (min)
+
+|#28
+|m_ExtendedSelectMode
+|-1
+
+|#29
+|m_PtGenRotMode
+|Rotation Mode
+
+|#30
+|m_PtGenFixedRotPos
+|Fixed Rotation Position in Degrees
+
+|#31
+|m_PtGenTiltMode
+|Tilt Mode
+
+|#32
+|m_PtGenFixedTiltPos
+|Fixed Tilt Position in Degrees
+
+|#33
+|m_PtGenZMode
+|Z-Height Mode
+
+|#34
+|m_PtGenFixedZPos
+|Fixed Z Position in mm
+
+|#35
+|m_PtGenAreaType
+|Point Generation Area Type
+
+|#36
+|m_PtGenAreaDensity
+|Point Generation Area Fill Density
+
+|#37
+|m_PtGenAreaFillSizeSource
+|Point Generation Area Fill Size Source
+
+|#38
+|m_PtGenAreaFillOverlapInPercent
+|Point Generation Area Fill Overlap in percent
+
+|#39
+|m_RectPtGenMode
+|Point Generation Mode
+
+|#40
+|m_RectPtsAlongLine
+|Points Along The Line Between Boundary Positions
+
+|#41
+|m_RectPtsUDir
+|Number of Rectangular Area Points in U Direction
+
+|#42
+|m_RectPtsVDir
+|Number of Rectangular Area Points in U Direction
+
+|#43
+|m_PolarPtGenMode
+|Point Generation Mode
+
+|#44
+|m_PolarPtGenFillMode
+|Polar Area Fill Mode
+
+|#45
+|m_PolarPtGenCoordMode
+|Calculate Point Positions Using Rotation Driven Positioning
+
+|#46
+|m_PolarPtsAlongLineArc
+|Polar Points Along Line or Arc
+
+|#47
+|m_PolarPtsUDir
+|Number of Polar Area Points in U Direction
+
+|#48
+|m_PolarPtsVDir
+|Number of Polar Area Points in V Direction
+
+|#49
+|m_PolarPtsRadDir
+|Number of Polar Area Points in Radial Direction
+
+|#50
+|m_PolarPtsAngDir
+|Number of Polar Area Points in Angular Direction
+
+|#51
+|m_SXIPhotoNumber
+|-1
+
+|#52
+|m_SXIPhotoComment
+|-1
+
+|#53
+|m_SXIPhotoDate
+|-1
+
+|#54
+|m_ImagePlotGamma
+|Wafer Map: Gamma (Brightness)
+
+|#55
+|m_SXIImagePlotGamma
+|SXI: Gamma (Brightness)
+
+|#56
+|m_IRImagePlotGamma
+|IR: Gamma (Brightness)
+
+
+|================
+=== Notification
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_EmailAddressList
+|Email Address List
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_SmtpHost
+|The IP address of the server that forwards email at your site
+
+|#5
+|m_SmtpPort
+|The TCP port number used to communicate with the email server at your site
+
+|#6
+|m_SenderName
+|The text to be shown on email messages as the name of the sender
+
+|#7
+|m_SenderEmailAddress
+|The text to be shown on email messages as the email address of the sender
+
+|#8
+|m_TestEmailSubject
+|The subject text that will be used when sending test messages
+
+|#9
+|m_TestEmailMessage
+|The message text that will be used when sending test messages
+
+
+|================
+=== Outgas
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_OutgasActive
+|Outgas Active
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+
+|================
+=== PeriodicTable
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_ElementDatabasePathname
+|Element Database Filename
+
+
+|================
+=== PlatenManager
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_PlatenName
+|-1
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_CurrentStation
+|Sample Location
+
+|#5
+|m_InsertSampleDelayAfterPump
+|Additional Delay After Pump Intro
+
+|#6
+|m_InsertSampleDelayAfterPumpInMin
+|Additional Delay After Pump Intro (min)
+
+|#7
+|m_ExtractSampleDelayAfterPump
+|Additional Delay After Pump Intro
+
+|#8
+|m_ExtractSampleDelayAfterPumpInMin
+|Additional Delay After Pump Intro (min)
+
+|#9
+|m_ExtractSampleBackfill
+|Backfill Intro
+
+|#10
+|m_InsertSampleDelayAfterPump_Prep
+|Additional Delay After Pump Prep
+
+|#11
+|m_InsertSampleDelayAfterPumpInMin_Prep
+|Additional Delay After Pump Prep (min)
+
+|#12
+|m_ExtractSampleDelayAfterPump_Prep
+|Additional Delay After Pump Prep
+
+|#13
+|m_ExtractSampleDelayAfterPumpInMin_Prep
+|Additional Delay After Pump Prep (min)
+
+|#14
+|m_ExtractSampleBackfill_Prep
+|Backfill Prep
+
+
+|================
+=== ProfileAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_AnalyzerMode
+|Analyzer Scan Mode
+
+|#2
+|m_AnalyzerFRRFATMode
+|Analyzer FRR/FAT Mode
+
+|#3
+|m_ActiveList
+|Active Region
+
+|#4
+|m_IRActiveList
+|Image Registration
+
+|#5
+|m_AtomicNoList
+|-1
+
+|#6
+|m_ElementList
+|Transition Name
+
+|#7
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#8
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#9
+|m_RangeList
+|Acquisition Range (eV)
+
+|#10
+|m_EvStepList
+|Step Size (eV)
+
+|#11
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#12
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#13
+|m_PeakUnscanList
+|Acquisition Peak (eV)
+
+|#14
+|m_RangeUnscanList
+|Acquisition Range (eV)
+
+|#15
+|m_EvStepUnscanList
+|Step Size (eV)
+
+|#16
+|m_NoOfChannelsUnscanList
+|Number Of Channels
+
+|#17
+|m_AnalysisPeakUnscanList
+|Analysis Peak (eV)
+
+|#18
+|m_AnalysisRangeUnscanList
+|Analysis Range (eV)
+
+|#19
+|m_NoOfSweepsList
+|Number of Sweeps
+
+|#20
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#24
+|m_TimePerStepScan
+|Time Per Step: Scanned (ms)
+
+|#25
+|m_TimePerStepUnscan
+|Time Per Region: Unscanned (ms)
+
+|#26
+|m_NonEPCTimePerPixel
+|Time Per Pixel Per Region (ms)
+
+|#27
+|m_NoOfCycles
+|Number Of Cycles
+
+|#28
+|m_ExcitationSource
+|Excitation Source
+
+|#29
+|m_XRaySetting
+|X-Ray Setting Used During Acquisition
+
+|#30
+|m_DualAnodeSetting
+|Dual Anode Setting Used During Acquisition
+
+|#31
+|m_ImageRegIntCycle
+|Registration Interval
+
+|#32
+|m_SputterMode
+|Sputter Mode
+
+|#33
+|m_NoLayers
+|Number Of Layers
+
+|#34
+|m_LayerNameList
+|Layer Name
+
+|#35
+|m_LayerNoCycleList
+|Number Of Cycles
+
+|#36
+|m_LayerTimeList
+|Sputter Time (min)
+
+|#37
+|m_LayerDepthList
+|Sputter Depth (Angstrom)
+
+|#38
+|m_LayerIntervalList
+|Sputter Interval (min)
+
+|#39
+|m_LayerIgSettingList
+|Sputter Setting
+
+|#40
+|m_LayerIgSputterRateList
+|Sputter Rate (Angstrom/min)
+
+|#41
+|m_LayerIgGunTypeList
+|Ion Gun Type
+
+|#42
+|m_PreSputterCycles
+|Number of data cycles collected before the start of sputter cycles
+
+|#43
+|m_SputterAcqCycles
+|Sputter/Acquisition Cycles
+
+|#44
+|m_XrayModeDuringSputter
+|X-Ray Mode During Sputter
+
+|#45
+|m_DelayAfterSputter
+|Delay applied after sputter during depth profiling
+
+|#46
+|m_ToFileDelayAfterSputter
+|-1
+
+|#47
+|m_DelayAfterSputterOnNeutOnly
+|Only Delay After Sputter When Neutralizing With Ion Gun
+
+|#48
+|m_ContinuousGunType
+|Continuous Profile Gun Type
+
+|#49
+|m_ContinuousArgonSetting
+|Continuous Argon Sputter Setting
+
+|#50
+|m_ContinuousC60Setting
+|Continuous C60 Sputter Setting
+
+|#51
+|m_ContinuousGCIBSetting
+|Continuous GCIB Sputter Setting
+
+|#52
+|m_ContinuousSputterRate
+|Sputter Rate (Angstrom/min)
+
+|#53
+|m_ContinuousDepth
+|Sputter Depth (Angstrom)
+
+|#54
+|m_DualSputterArgonSetting
+|Dual Sputter Argon Setting
+
+|#55
+|m_EnableAltSputterPos
+|Use Sputter Position Offset to Sputter at Offset Position from Acquisition Position
+
+|#56
+|m_SputterOffsetX
+|Sputter Position X-Offset
+
+|#57
+|m_SputterOffsetY
+|Sputter Position Y-Offset
+
+|#58
+|m_SputterOffsetZ
+|Sputter Position Z-Offset
+
+|#59
+|m_SputterOffsetT
+|Sputter Position Tilt-Offset
+
+|#60
+|m_SputterOffsetR
+|Sputter Position Rotation-Offset
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+|#5
+|m_ZalarHighAccuracy
+|Zalar Accuracy
+
+|#6
+|m_ZalarHighAccuracyInterval
+|Zalar High Accuracy Interval (cycle)
+
+|#7
+|m_AcquisitionPosX
+|Acquisition X-Position for Calculating Sputter Position Offsets
+
+|#8
+|m_AcquisitionPosY
+|Acquisition Y-Position for Calculating Sputter Position Offsets
+
+|#9
+|m_AcquisitionPosZ
+|Acquisition Z-Position for Calculating Sputter Position Offsets
+
+|#10
+|m_AcquisitionPosT
+|Acquisition Tilt-Position for Calculating Sputter Position Offsets
+
+|#11
+|m_AcquisitionPosR
+|Acquisition Rotation-Position for Calculating Sputter Position Offsets
+
+|#12
+|m_SputterPosX
+|Sputter X-Position for Calculating Sputter Position Offsets
+
+|#13
+|m_SputterPosY
+|Sputter Y-Position for Calculating Sputter Position Offsets
+
+|#14
+|m_SputterPosZ
+|Sputter Z-Position for Calculating Sputter Position Offsets
+
+|#15
+|m_SputterPosT
+|Sputter Tilt-Position for Calculating Sputter Position Offsets
+
+|#16
+|m_SputterPosR
+|Sputter Rotation-Position for Calculating Sputter Position Offsets
+
+
+|================
+=== ProfileData
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_CursorMode
+|Cursor Mode
+
+|#4
+|m_TileDataMode
+|-1
+
+|#5
+|m_ProfileViewerOrientation
+|Profile Viewer Orientation
+
+
+|================
+=== RegionAcq
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_RefreshPersistence
+|Refresh Persistence
+
+|#4
+|m_CurrentTab
+|-1
+
+
+|================
+=== Resource Monitor
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_MemoryUsageAlarmLimitInMB
+|Memory Usage Alarm Limit (MB)
+
+|#4
+|m_HandleUsageCountAlarmLimit
+|Handle Usage Alarm Limit
+
+|#5
+|m_ThreadUsageCountAlarmLimit
+|Thread Usage Alarm Limit
+
+|#6
+|m_CDriveSpaceLimitInGB
+|C: Drive Space Available Limit
+
+
+|================
+=== SEM FE
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_SEDBrightness
+|Brightness
+
+|#2
+|m_SEDContrast
+|Contrast
+
+|#3
+|m_REELSSetting
+|Save Setting As REELS Setting (_REELS)
+
+|#4
+|m_ElasticPeakEnergyInEv
+|Elastic Peak Energy (eV)
+
+|#5
+|m_Fov
+|Field Of View (um)
+
+|#6
+|m_XShift
+|X Shift (um)
+
+|#7
+|m_YShift
+|Y Shift (um)
+
+|#8
+|m_BeamVoltageInKv
+|Beam Voltage (kV)
+
+|#9
+|m_BeamCurrentInNa
+|Beam Current (nA)
+
+|#10
+|m_GunLensVoltageInKv
+|Gun Lens (kV)
+
+|#10-1
+|m_Wobble
+|Gun Lens (kV)
+
+|#11
+|m_XExtractorSteering
+|Extractor Steering X (%)
+
+|#12
+|m_YExtractorSteering
+|Extractor Steering Y (%)
+
+|#13
+|m_XFocusSteering
+|Focus Steering X (%)
+
+|#14
+|m_YFocusSteering
+|Focus Steering Y (%)
+
+|#15
+|m_ScintillatorPMT1Voltage
+|Scintillator Photo Multiplier Tube 1 (V)
+
+|#16
+|m_OctupoleOffsetX
+|Octupole Offset X
+
+|#17
+|m_OctupoleOffsetY
+|Octupole Offset Y
+
+|#18
+|m_OctupoleMagnification
+|Octupole Magnification
+
+|#19
+|m_TiltX
+|Tilt X (degree)
+
+|#20
+|m_TiltY
+|Tilt Y (degree)
+
+|#21
+|m_Rotation
+|Rotation (degree)
+
+|#22
+|m_Stig1Wobble
+|Stig: X
+
+|#22-1
+|m_Wobble
+|Stig: X
+
+|#23
+|m_Stig1X
+|Stig X Steering: X
+
+|#24
+|m_Stig1Y
+|Stig X Steering: Y
+
+|#25
+|m_Stig2Wobble
+|Stig: Y
+
+|#25-1
+|m_Wobble
+|Stig: Y
+
+|#26
+|m_Stig2X
+|Stig Y Steering: X
+
+|#27
+|m_Stig2Y
+|Stig Y Steering: Y
+
+|#28
+|m_FocusWobble
+|Focus (Coarse) (%)
+
+|#28-1
+|m_Wobble
+|Focus (Coarse) (%)
+
+|#29
+|m_FineFocus
+|Digital Fine Focus (%)
+
+|#30
+|m_QuadOffsetX
+|Extractor Steering X
+
+|#31
+|m_QuadOffsetY
+|Extractor Steering Y
+
+|#32
+|m_SEDGain
+|SED Gain
+
+|#33
+|m_SEDOffset
+|SED Offset
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_ReducedImageArea
+|Reduced Image Area
+
+|#19
+|m_ImagePlotGamma
+|Gamma
+
+|#20
+|m_ImagePlotContrastMin
+|Contrast Min
+
+|#21
+|m_ImagePlotContrastMax
+|Contrast Max
+
+|#22
+|m_ImagePlotThresholdMin
+|Threshold Min
+
+|#23
+|m_ImagePlotThresholdMax
+|Threshold Max
+
+|#24
+|m_ScanSpeed
+|Scan Speed
+
+|#25
+|m_DoPreview
+|Number Of Frames
+
+|#26
+|m_DoIncrement
+|Increment Photo Number
+
+|#27
+|m_DoCopy
+|Copy To Clipboard
+
+|#28
+|m_DoSave
+|Save To File
+
+|#29
+|m_DoSavePositionList
+|Save to File; Add to Position List
+
+|#30
+|m_DoPrint
+|Print
+
+|#31
+|m_PreviewFrames
+|Photo Frames Average
+
+|#32
+|m_DoPreview2
+|Number Of Frames
+
+|#33
+|m_DoIncrement2
+|Increment Photo Number
+
+|#34
+|m_DoCopy2
+|Copy To Clipboard
+
+|#35
+|m_DoSave2
+|Save To File
+
+|#36
+|m_DoPrint2
+|Print
+
+|#37
+|m_PreviewFrames2
+|Photo Frames Average
+
+|#38
+|m_PhotoNumber
+|Photo Number
+
+|#39
+|m_PhotoFov
+|FOV
+
+|#40
+|m_PhotoMag
+|Magnification
+
+|#41
+|m_PhotoBeamVoltage
+|Beam Voltage
+
+|#42
+|m_PhotoMicronMarker
+|Micron Marker
+
+|#43
+|m_PhotoComment
+|Photo Comment
+
+|#44
+|m_PhotoDate
+|Date
+
+|#45
+|m_AutoVideoBrightnessDefault
+|Brightness Default for Auto Video
+
+|#46
+|m_AutoVideoContrastDefault
+|Contrast Default for Auto Video
+
+|#47
+|m_UseAutoVideoDefault
+|Use Auto Video Default
+
+|#48
+|m_Settings
+|-1
+
+|#49
+|m_FovMagMode
+|Image Units (FOV/Magnification)
+
+|#50
+|m_PhotoSize
+|Photo Size (mm)
+
+|#51
+|m_FovXScaleFactor
+|FOV X Scale Factor
+
+|#52
+|m_FovYScaleFactor
+|FOV Y Scale Factor
+
+|#53
+|m_ShiftXScaleFactor
+|Shift Scale Factor: X
+
+|#54
+|m_ShiftYScaleFactor
+|Shift Scale Factor: Y
+
+|#55
+|m_EGunUnblankQuickDelayTime
+|Delay After E-Gun UnBlank (sec)
+
+|#56
+|m_EGunUnblankAdditionalDelayTime
+|Extra Delay After E-Gun UnBlank (sec)
+
+|#57
+|m_BeamState
+|FE Beam State
+
+|#58
+|m_BeamBlank
+|Beam Blank
+
+|#59
+|m_BeamBlankAuto
+|Beam Blank Auto State
+
+|#60
+|m_BeamVoltageRampInKvPerSec
+|Beam Voltage Ramp (kV/Sec)
+
+|#61
+|m_BeamVoltageMax
+|Beam Voltage Maximum (kV)
+
+|#62
+|m_GunLensMax
+|Gun Lens Voltage Maximum (kV)
+
+|#63
+|m_ExtractorVoltageInKv
+|Extractor Voltage (kV)
+
+|#64
+|m_ExtractorVoltageInKvMax
+|Extractor Voltage Maximum (kV)
+
+|#65
+|m_SuppressorVoltageInV
+|Suppressor Voltage (V)
+
+|#66
+|m_FilamentCurrentInA
+|Filament Current (A)
+
+|#67
+|m_BeamVoltageOffsetInV
+|Beam Voltage Offset (V)
+
+|#68
+|m_TargetFilamentCurrentInA
+|Target Filament Current (A)
+
+|#69
+|m_TargetExtractorVoltageInKv
+|Target Extractor Voltage (kV)
+
+|#70
+|m_FeStartupNewTip
+|90 minute startup; 12 hour conditioning
+
+|#71
+|m_FeStartupNormal
+|90 minute startup; No conditioning
+
+|#72
+|m_FeStartupQuick
+|Caution: to be used for warm emitter startup only
+
+|#73
+|m_FEStartupMode
+|FE Startup Mode
+
+|#74
+|m_FeShutdownFineFilamentCurrentTargetInA
+|-1
+
+|#75
+|m_FeShutdownCoarseFilamentCurrentStepsizeInA
+|-1
+
+|#76
+|m_FeShutdownFineFilamentCurrentStepsizeInA
+|-1
+
+|#77
+|m_FeShutdownStepFilamentCurrentWaitTimeInS
+|-1
+
+|#78
+|m_FeShutdownMaxWaitTimeAfterSetExtractorVInMin
+|-1
+
+|#79
+|m_ScintillatorState
+|Scintillator State
+
+|#80
+|m_ScintillatorAutoState
+|Scintillator Auto State
+
+|#81
+|m_ScintillatorSupply10kVVoltage
+|Scintillator 10kV Supply Voltage (V)
+
+|#82
+|m_ScintillatorPMT2Voltage
+|Scintillator Photo Multiplier Tube 2 (V)
+
+|#83
+|m_ScintillatorVideoFaultVoltage
+|Scintillator Video Fault Voltage (V)
+
+|#84
+|m_AutoVideoPMT1VoltageStart
+|Scintillator Photo Multiplier Tube 1 Start Value for Auto Video (V)
+
+|#85
+|m_AutoVideoPMT1VoltageThreshold
+|Scintillator Photo Multiplier Tube 1 Threshold for Auto Video (V)
+
+|#86
+|m_AutoVideoPMT1VoltageStepSize
+|Scintillator Photo Multiplier Tube 1 Step Size for Auto Video (V)
+
+|#87
+|m_DeflectionFilter
+|Deflection Filter
+
+|#88
+|m_TiltXOffset
+|FOV Tilt X Correction (degree)
+
+|#89
+|m_TiltYOffset
+|FOV Tilt Y Correction (degree)
+
+|#90
+|m_TrapezoidalCorrectionX
+|Trapezoidal Correction X (degree)
+
+|#91
+|m_TrapezoidalCorrectionY
+|Trapezoidal Correction Y (degree)
+
+|#92
+|m_RotationOffset
+|Rotation Offset (degree)
+
+|#93
+|m_FocusVoltageMaxInKV
+|Focus Voltage Maximum (kV)
+
+|#94
+|m_FineFocusToFocusOffset
+|-1
+
+|#95
+|m_ReadEmissionCurrentInUa
+|Extractor Current (uA)
+
+|#96
+|m_ResolutionSlow
+|Slow Resolution
+
+|#97
+|m_ResolutionMedium
+|Medium Resolution
+
+|#98
+|m_ResolutionFast
+|Fast Resolution
+
+|#99
+|m_ResolutionPhoto
+|Photo Resolution
+
+|#100
+|m_ResolutionImageReg
+|Image Registration Resolution
+
+|#101
+|m_ResolutionAutoVideo
+|Image Auto Video Resolution
+
+|#102
+|m_ResolutionBeamSize
+|Beam Size Resolution
+
+|#103
+|m_TimePerPointSlow
+|Time/Point:Slow (us)
+
+|#104
+|m_TimePerPointMedium
+|Time/Point:Medium (us)
+
+|#105
+|m_TimePerPointFast
+|Time/Point:Fast (us)
+
+|#106
+|m_TimePerPointPhoto
+|Time/Point:Photo (us)
+
+|#107
+|m_TimePerPointImageReg
+|Time/Point:Image Registration (us)
+
+|#108
+|m_TimePerPointAutoVideo
+|Time/Point:Auto Video (us)
+
+|#109
+|m_TimePerPointBeamSize
+|Time/Point:Beam Size (us)
+
+|#110
+|m_Persistence
+|Persistence
+
+|#111
+|m_NoiseReduction
+|Noise Reduction
+
+|#112
+|m_ContrastEnhancement
+|Contrast Enhancement
+
+|#113
+|m_IPDenoiseType
+|-1
+
+|#114
+|m_IPDenoiseKernelSize
+|-1
+
+|#115
+|m_IPDenoiseDiameter
+|-1
+
+|#116
+|m_IPDenoiseDomainTransformMode
+|-1
+
+|#117
+|m_IPDenoiseSigmaColor
+|-1
+
+|#118
+|m_IPDenoiseSigmaSpace
+|-1
+
+|#119
+|m_IPDenoiseHFilterStrength
+|-1
+
+|#120
+|m_IPDenoiseWithUnsharp
+|-1
+
+|#121
+|m_IPContrastType
+|-1
+
+|#122
+|m_IPContrastGamma
+|-1
+
+|#123
+|m_IPContrastClipLimit
+|-1
+
+|#124
+|m_IPFilterType
+|-1
+
+|#125
+|m_IPBRMode
+|-1
+
+|#126
+|m_AutoContrast
+|Auto Contrast Enabled
+
+|#127
+|m_AutoContrastLow
+|Auto Contrast Low Intensity (%)
+
+|#128
+|m_AutoContrastHigh
+|Auto Contrast High Intensity (%)
+
+|#129
+|m_nWaitForDataAcqSystemMaskChangeInSec
+|Wait Time To Restart SEM (sec)
+
+|#130
+|m_CalibrateImageX
+|Calibrate Image X
+
+|#131
+|m_CalibrateImageY
+|Calibrate Image Y
+
+|#132
+|m_CalibrateStageX
+|Calibrate Stage X
+
+|#133
+|m_CalibrateStageY
+|Calibrate Stage Y
+
+|#134
+|m_FovCrossOver
+|Shift Crossover: FOV (um)
+
+|#135
+|m_MagCrossOver
+|Shift Crossover: Magnification
+
+|#136
+|m_DirectDrawState
+|Direct Draw State
+
+|#137
+|m_ImageGrabFrameRate
+|Refresh Rate (frames/sec)
+
+|#138
+|m_ImageScanRatio
+|Vertical to Horizontal Image Size
+
+|#139
+|m_RefreshRate
+|RefreshRate
+
+|#140
+|m_IsolationValveMinBeamVoltage
+|-1
+
+|#141
+|m_IsolationValveMinBeamVoltageWaitTimeInMin
+|-1
+
+|#142
+|m_OpenIsolationValveMaxPressureInTorr
+|-1
+
+|#143
+|m_ToFileAnodeEnergy
+|Photon Energy (eV)
+
+|#144
+|m_GoogleBarVisible
+|SEM Toolbar
+
+|#145
+|m_KnobBoxPressAccelerator
+|-1
+
+|#146
+|m_KnobBoxUnPressAccelerator
+|-1
+
+
+|================
+=== SEM LaB6
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_SEDBrightness
+|Brightness
+
+|#2
+|m_SEDContrast
+|Contrast
+
+|#3
+|m_REELSSetting
+|Save Setting As REELS Setting (_REELS)
+
+|#4
+|m_ElasticPeakEnergyInEv
+|Elastic Peak Energy (eV)
+
+|#5
+|m_Fov
+|Field Of View (um)
+
+|#6
+|m_XShift
+|X Shift (um)
+
+|#7
+|m_YShift
+|Y Shift (um)
+
+|#8
+|m_XShiftOffset
+|X Shift Offset (um)
+
+|#9
+|m_YShiftOffset
+|Y Shift Offset (um)
+
+|#10
+|m_BeamVoltageInKv
+|Beam Voltage(kV)
+
+|#11
+|m_BeamCurrentInNa
+|Beam Current (nA)
+
+|#12
+|m_BiasVoltageInKv
+|Bias Voltage (kV)
+
+|#13
+|m_CondenserInPercent
+|Condenser (%)
+
+|#14
+|m_EmissionCurrentSetPointInUa
+|Target Emission Current (uA)
+
+|#15
+|m_ScintillatorPMT1Voltage
+|Scintillator Photo Multiplier Tube 1 (V)
+
+|#16
+|m_OctupoleOffsetX
+|Octupole Offset X
+
+|#17
+|m_OctupoleOffsetY
+|Octupole Offset Y
+
+|#18
+|m_OctupoleMagnification
+|Octupole Magnification
+
+|#19
+|m_TiltX
+|Tilt X (deg)
+
+|#20
+|m_TiltY
+|Tilt Y (deg)
+
+|#21
+|m_Rotation
+|Rotation
+
+|#22
+|m_Stig1Wobble
+|Stig: 1
+
+|#22-1
+|m_Wobble
+|Stig: 1
+
+|#23
+|m_Stig1X
+|Stig 1 Steering: X
+
+|#24
+|m_Stig1Y
+|Stig 1 Steering: Y
+
+|#25
+|m_Stig2Wobble
+|Stig: 2
+
+|#25-1
+|m_Wobble
+|Stig: 2
+
+|#26
+|m_Stig2X
+|Stig 2 Steering: X
+
+|#27
+|m_Stig2Y
+|Stig 2 Steering: Y
+
+|#28
+|m_FocusWobble
+|Focus (%)
+
+|#28-1
+|m_Wobble
+|Focus (%)
+
+|#29
+|m_QuadOffsetX
+|Quad Offset X
+
+|#30
+|m_QuadOffsetY
+|Quad Offset Y
+
+|#31
+|m_SEDGain
+|SED Gain
+
+|#32
+|m_SEDOffset
+|SED Offset
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_ReducedImageArea
+|Reduced Image Area
+
+|#19
+|m_ImagePlotGamma
+|Gamma
+
+|#20
+|m_ImagePlotContrastMin
+|Contrast Min
+
+|#21
+|m_ImagePlotContrastMax
+|Contrast Max
+
+|#22
+|m_ImagePlotThresholdMin
+|Threshold Min
+
+|#23
+|m_ImagePlotThresholdMax
+|Threshold Max
+
+|#24
+|m_ScanSpeed
+|Scan Speed
+
+|#25
+|m_DoPreview
+|Number Of Frames
+
+|#26
+|m_DoIncrement
+|Increment Photo Number
+
+|#27
+|m_DoCopy
+|Copy To Clipboard
+
+|#28
+|m_DoSave
+|Save To File
+
+|#29
+|m_DoSavePositionList
+|Save to File; Add to Position List
+
+|#30
+|m_DoPrint
+|Print
+
+|#31
+|m_PreviewFrames
+|Photo Frames Average
+
+|#32
+|m_DoPreview2
+|Number Of Frames
+
+|#33
+|m_DoIncrement2
+|Increment Photo Number
+
+|#34
+|m_DoCopy2
+|Copy To Clipboard
+
+|#35
+|m_DoSave2
+|Save To File
+
+|#36
+|m_DoPrint2
+|Print
+
+|#37
+|m_PreviewFrames2
+|Photo Frames Average
+
+|#38
+|m_PhotoNumber
+|Photo Number
+
+|#39
+|m_PhotoFov
+|FOV
+
+|#40
+|m_PhotoMag
+|Magnification
+
+|#41
+|m_PhotoBeamVoltage
+|Beam Voltage
+
+|#42
+|m_PhotoMicronMarker
+|Micron Marker
+
+|#43
+|m_PhotoComment
+|Photo Comment
+
+|#44
+|m_PhotoDate
+|Date
+
+|#45
+|m_AutoVideoBrightnessDefault
+|Brightness Default for Auto Video
+
+|#46
+|m_AutoVideoContrastDefault
+|Contrast Default for Auto Video
+
+|#47
+|m_UseAutoVideoDefault
+|Use Auto Video Default
+
+|#48
+|m_Settings
+|-1
+
+|#49
+|m_FovMagMode
+|Image Units (FOV/Magnification)
+
+|#50
+|m_PhotoSize
+|Photo Size (mm)
+
+|#51
+|m_FovScaleFactor
+|FOV Scale Factor
+
+|#52
+|m_ShiftXScaleFactor
+|Shift X Scale Factor
+
+|#53
+|m_ShiftYScaleFactor
+|Shift Y Scale Factor
+
+|#54
+|m_BeamState
+|LaB6 Beam State
+
+|#55
+|m_BeamStateShutdown
+|-1
+
+|#56
+|m_BiasVoltageForEGunSafety
+|-1
+
+|#57
+|m_ThresholdOfBeamVForEGunSafety
+|-1
+
+|#58
+|m_WaitTimeOffsetAfterSetBeamV
+|-1
+
+|#59
+|m_FilamentCurrentInA
+|Filament Current (A)
+
+|#60
+|m_FilamentCurrentMaxInA
+|Filament Current Limit (A)
+
+|#61
+|m_FilamentCurrentGain
+|Filament Current Gain
+
+|#62
+|m_EmissionCurrentControl
+|Emission Current Control
+
+|#63
+|m_EmissionCurrentRefreshRateInSec
+|Emission Current Polling Rate (sec)
+
+|#64
+|m_AutoVideoPMT1VoltageStart
+|Scintillator Photo Multiplier Tube 1 Start Value for Auto Video (V)
+
+|#65
+|m_AutoVideoPMT1VoltageThreshold
+|Scintillator Photo Multiplier Tube 1 Threshold for Auto Video (V)
+
+|#66
+|m_AutoVideoPMT1VoltageStepSize
+|Scintillator Photo Multiplier Tube 1 Step Size for Auto Video (V)
+
+|#67
+|m_ScintillatorState
+|Scintillator State
+
+|#68
+|m_ScintillatorAutoState
+|Scintillator Auto State
+
+|#69
+|m_ScintillatorSupply10kVVoltage
+|Scintillator 10kV Supply Voltage (V)
+
+|#70
+|m_ScintillatorPMT2Voltage
+|Scintillator Photo Multiplier Tube 2 (V)
+
+|#71
+|m_ScintillatorVideoFaultVoltage
+|Scintillator Video Fault Voltage (V)
+
+|#72
+|m_ScintillatorPMT1Gain
+|Scintillator Photo Multiplier Tube 1 Gain
+
+|#73
+|m_ScintillatorPMT2Gain
+|Scintillator Photo Multiplier Tube 2 Gain
+
+|#74
+|m_ScintillatorSupply10kVGain
+|Scintillator 10kV Supply Gain
+
+|#75
+|m_TiltXOffset
+|Tilt X Offset (deg)
+
+|#76
+|m_TiltYOffset
+|Tilt Y Offset (deg)
+
+|#77
+|m_TrapezoidalCorrectionX
+|Trapezoidal Correction X (degree)
+
+|#78
+|m_TrapezoidalCorrectionY
+|Trapezoidal Correction Y (degree)
+
+|#79
+|m_RotationOffset
+|Rotation Offset
+
+|#80
+|m_QuadToOct
+|Quad To Oct
+
+|#81
+|m_ResolutionSlow
+|Slow Resolution
+
+|#82
+|m_ResolutionMedium
+|Medium Resolution
+
+|#83
+|m_ResolutionFast
+|Fast Resolution
+
+|#84
+|m_ResolutionPhoto
+|Photo Resolution
+
+|#85
+|m_ResolutionImageReg
+|Image Registration Resolution
+
+|#86
+|m_ResolutionAutoVideo
+|Image Auto Video Resolution
+
+|#87
+|m_ResolutionBeamSize
+|Beam Size Resolution
+
+|#88
+|m_TimePerPointSlow
+|Time/Point:Slow (us)
+
+|#89
+|m_TimePerPointMedium
+|Time/Point:Medium (us)
+
+|#90
+|m_TimePerPointFast
+|Time/Point:Fast (us)
+
+|#91
+|m_TimePerPointPhoto
+|Time/Point:Photo (us)
+
+|#92
+|m_TimePerPointImageReg
+|Time/Point:Image Registration (us)
+
+|#93
+|m_TimePerPointAutoVideo
+|Time/Point:Auto Video (us)
+
+|#94
+|m_TimePerPointBeamSize
+|Time/Point:Beam Size (us)
+
+|#95
+|m_Persistence
+|Persistence
+
+|#96
+|m_NoiseReduction
+|Noise Reduction
+
+|#97
+|m_ContrastEnhancement
+|Contrast Enhancement
+
+|#98
+|m_IPDenoiseType
+|-1
+
+|#99
+|m_IPDenoiseKernelSize
+|-1
+
+|#100
+|m_IPDenoiseDiameter
+|-1
+
+|#101
+|m_IPDenoiseDomainTransformMode
+|-1
+
+|#102
+|m_IPDenoiseSigmaColor
+|-1
+
+|#103
+|m_IPDenoiseSigmaSpace
+|-1
+
+|#104
+|m_IPDenoiseHFilterStrength
+|-1
+
+|#105
+|m_IPDenoiseWithUnsharp
+|-1
+
+|#106
+|m_IPContrastType
+|-1
+
+|#107
+|m_IPContrastGamma
+|-1
+
+|#108
+|m_IPContrastClipLimit
+|-1
+
+|#109
+|m_IPFilterType
+|-1
+
+|#110
+|m_IPBRMode
+|-1
+
+|#111
+|m_AutoContrast
+|Auto Contrast Enabled
+
+|#112
+|m_AutoContrastLow
+|Auto Contrast Low Intensity (%)
+
+|#113
+|m_AutoContrastHigh
+|Auto Contrast High Intensity (%)
+
+|#114
+|m_nWaitForDataAcqSystemMaskChangeInSec
+|Wait Time To Restart SEM (sec)
+
+|#115
+|m_CalibrateImageX
+|Calibrate Image X
+
+|#116
+|m_CalibrateImageY
+|Calibrate Image Y
+
+|#117
+|m_CalibrateStageX
+|Calibrate Stage X
+
+|#118
+|m_CalibrateStageY
+|Calibrate Stage Y
+
+|#119
+|m_FovCrossOver
+|Shift Crossover: FOV (um)
+
+|#120
+|m_MagCrossOver
+|Shift Crossover: Magnification
+
+|#121
+|m_DirectDrawState
+|Direct Draw State
+
+|#122
+|m_ImageGrabFrameRate
+|Refresh Rate (frames/sec)
+
+|#123
+|m_ImageScanRatio
+|Vertical to Horizontal Image Size
+
+|#124
+|m_RefreshRate
+|RefreshRate
+
+|#125
+|m_ToFileAnodeEnergy
+|Photon Energy (eV)
+
+|#126
+|m_GoogleBarVisible
+|SEM Toolbar
+
+|#127
+|m_KnobBoxPressAccelerator
+|-1
+
+|#128
+|m_KnobBoxUnPressAccelerator
+|-1
+
+|#129
+|m_BeamEnergyRange1DataOutgas
+|Beam Voltage(kV): Range-1
+
+|#130
+|m_BeamEnergyRange2DataOutgas
+|Beam Voltage(kV): Range-2
+
+|#131
+|m_BeamEnergyRange3DataOutgas
+|Beam Voltage(kV): Range-3
+
+|#132
+|m_FilamentRange1DataOutgas
+|Filament Current (A): Range-1
+
+|#133
+|m_FilamentRange2DataOutgas
+|Filament Current (A): Range-2
+
+
+|================
+=== SEM Registration
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_SemImageRegList
+|-1
+
+|#4
+|m_PreviewImage
+|Collect New Image
+
+|#5
+|m_ConfidenceThreshold
+|SEM Confidence Threshold
+
+|#6
+|m_NoOfRetries
+|Number Of Retries
+
+|#7
+|m_IRImagePlotGamma
+|IR: Gamma (Brightness)
+
+
+|================
+=== Service
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_LogViewer
+|Log Viewer Style
+
+
+|================
+=== Settings Editor
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_HighlightMode
+|Highlight
+
+
+|================
+=== SmoothDiff
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|FSmoothType
+|-1
+
+|#4
+|FSavGolPts
+|-1
+
+|#5
+|FBinomPts
+|-1
+
+|#6
+|FDerivPts
+|-1
+
+
+|================
+=== SpatialArea
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_Areas
+|-1
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+
+|================
+=== SpatialLine
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_Lines
+|-1
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+
+|================
+=== SpatialMap
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_Areas
+|-1
+
+
+|================
+=== SpectralData
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_CursorMode
+|Cursor Mode
+
+|#4
+|m_SpectralViewerOrientation
+|Spectral Viewer Orientation
+
+|#5
+|m_TileMode
+|-1
+
+|#6
+|m_RegionDisplayStyle
+|Region Display Style
+
+
+|================
+=== SpectrumAcq
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_AnalyzerMode
+|Analyzer Scan Mode
+
+|#2
+|m_AnalyzerFRRFATMode
+|Analyzer FRR/FAT Mode
+
+|#3
+|m_ActiveList
+|Active Region
+
+|#4
+|m_IRActiveList
+|Image Registration
+
+|#5
+|m_AtomicNoList
+|-1
+
+|#6
+|m_ElementList
+|Transition Name
+
+|#7
+|m_AcqLowerLimitList
+|Acquisition Lower (eV)
+
+|#8
+|m_AcqUpperLimitList
+|Acquisition Upper (eV)
+
+|#9
+|m_RangeList
+|Acquisition Range (eV)
+
+|#10
+|m_EvStepList
+|Step Size (eV)
+
+|#11
+|m_AnalLowerLimitList
+|Analysis Lower (eV)
+
+|#12
+|m_AnalUpperLimitList
+|Analysis Upper (eV)
+
+|#13
+|m_PeakUnscanList
+|Acquisition Peak (eV)
+
+|#14
+|m_RangeUnscanList
+|Acquisition Range (eV)
+
+|#15
+|m_EvStepUnscanList
+|Step Size (eV)
+
+|#16
+|m_NoOfChannelsUnscanList
+|Number Of Channels
+
+|#17
+|m_AnalysisPeakUnscanList
+|Analysis Peak (eV)
+
+|#18
+|m_AnalysisRangeUnscanList
+|Analysis Range (eV)
+
+|#19
+|m_NoOfSweepsList
+|Number of Sweeps
+
+|#20
+|m_PassEnergyList
+|Pass Energy (eV)
+
+|#21
+|m_RatioList
+|Ratio
+
+|#22
+|m_PeakToNoiseList
+|Peak To Noise Ratio
+
+|#23
+|m_ToFileActivePeakIntensityList
+|-1
+
+|#24
+|m_TimePerStepScan
+|Time Per Step: Scanned (ms)
+
+|#25
+|m_TimePerStepUnscan
+|Time Per Region: Unscanned (ms)
+
+|#26
+|m_NonEPCTimePerPixel
+|Time Per Pixel Per Region (ms)
+
+|#27
+|m_NoOfCycles
+|Number Of Cycles
+
+|#28
+|m_ExcitationSource
+|Excitation Source
+
+|#29
+|m_XRaySetting
+|X-Ray Setting Used During Acquisition
+
+|#30
+|m_DualAnodeSetting
+|Dual Anode Setting Used During Acquisition
+
+|#31
+|m_ImageRegIntCycle
+|Registration Interval
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_MoreNoOfCycles
+|More Cycles
+
+
+|================
+=== Sputter Tool
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_GunTypeSettingActive
+|Gun Type Setting Active
+
+|#4
+|m_GunTypeSettingName
+|-1
+
+|#5
+|m_CoSputterActive
+|Co-Sputter
+
+|#6
+|m_CoSputterType
+|-1
+
+|#7
+|m_CoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#8
+|m_CoSputterSettingName
+|-1
+
+|#9
+|m_ZalarRotation
+|Zalar Rotation
+
+|#10
+|m_EGunNeutralization
+|If checked, turn EGun Neutralization on during sputtering
+
+|#11
+|m_TargetSputterTime
+|Target Sputter Time (min)
+
+|#12
+|m_DoNotShow
+|Do Not Show
+
+
+|================
+=== Stage
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_Mode
+|-1
+
+|#2
+|m_TargetXAbs
+|X-Absolute Move (mm)
+
+|#3
+|m_TargetXRel
+|X-Relative Move (mm)
+
+|#4
+|m_TargetYAbs
+|Y-Absolute Move (mm)
+
+|#5
+|m_TargetYRel
+|Y-Relative Move (mm)
+
+|#6
+|m_TargetZAbs
+|Z-Absolute Move (mm)
+
+|#7
+|m_TargetZRel
+|Z-Relative Move (mm)
+
+|#8
+|m_TargetTAbs
+|Tilt-Absolute Move (deg)
+
+|#9
+|m_TargetTRel
+|Tilt-Relative Move (deg)
+
+|#10
+|m_TargetRAbs
+|Rotation-Absolute Move (deg)
+
+|#11
+|m_TargetRRel
+|Rotation-Relative Move (deg)
+
+|#12
+|m_ZalarRotationSpeedInRPM
+|Rotation Speed: Revolutions per minute
+
+|#13
+|m_ZalarRotationSpeedInMPR
+|Rotation Speed: Minutes per revolution
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_CurrentX
+|Current X
+
+|#5
+|m_CurrentY
+|Current Y
+
+|#6
+|m_CurrentZ
+|Current Z
+
+|#7
+|m_CurrentT
+|Current Tilt (deg)
+
+|#8
+|m_CurrentR
+|Current Rotation (deg)
+
+|#9
+|m_TiltOffset
+|Tilt Offset (deg)
+
+|#10
+|m_DeltaZIntro
+|Z Stroke During Sample Transfer
+
+|#11
+|m_ProtectionDuringAcq
+|Stage Protection(Lower Z and Lower Tilt) during Acquisition
+
+|#12
+|m_ProtectionDuringDrive
+|Stage Protection(Lower Z and Lower Tilt) during Drive All
+
+|#13
+|m_BacklashCorrection
+|Backlash Correction
+
+|#14
+|m_TargetZAbsMin
+|Minimum Z (mm)
+
+|#15
+|m_TargetZAbsMax
+|Maximum Z (mm)
+
+|#16
+|m_TargetXAbsStep
+|X Step Size (um)
+
+|#17
+|m_TargetYAbsStep
+|Y Step Size (um)
+
+|#18
+|m_TargetZAbsStep
+|Z Step Size (um)
+
+|#19
+|m_TargetTAbsMin
+|Minimum Tilt (deg)
+
+|#20
+|m_TargetTAbsMax
+|Maximum Tilt (deg)
+
+|#21
+|m_ZalarRotationSpeedUnits
+|Zalar Rotation Speed Units
+
+|#22
+|m_ZalarLimitsRadiusInMM
+|Zalar Limits Radius (mm)
+
+|#23
+|m_RotationCalibrateCenterX
+|-1
+
+|#24
+|m_RotationCalibrateCenterY
+|-1
+
+|#25
+|m_RotationCalibrateCenterR
+|-1
+
+|#26
+|m_RotationCenterX
+|X Rotation Center (mm)
+
+|#27
+|m_RotationCenterY
+|Y Rotation Center (mm)
+
+|#28
+|m_RotationCalibrateOffsetX
+|-1
+
+|#29
+|m_RotationCalibrateOffsetY
+|-1
+
+|#30
+|m_PhiStageRotationOffset
+|Rotation Offset (deg)
+
+|#31
+|m_PhiStageRotationInit
+|Rotation Init Position (deg)
+
+|#32
+|m_PreVacStageRotationOffset
+|Rotation Offset (deg)
+
+|#33
+|m_PreVacStageRotationInit
+|Rotation Init Position (deg)
+
+|#34
+|m_PreVacStagRotLimitSwitchOffset
+|Stage Rotation Limit Switch Offset (deg)
+
+|#35
+|m_IPESStageRotation
+|Rotation Position (deg)
+
+|#36
+|m_IPESStageRotationTolerance
+|Rotation Tolerance (deg)
+
+|#37
+|m_ValidShutdown
+|-1
+
+|#38
+|m_TargetMonochromator
+|Monochromator Tilt
+
+|#39
+|m_CalibrationScalingXInMmPerMm
+|-1
+
+|#40
+|m_CalibrationScalingYInMmPerMm
+|-1
+
+|#41
+|m_CalibrationZ
+|-1
+
+|#42
+|m_CalibrationScalingThetaInDegPerDeg
+|-1
+
+|#43
+|m_CalibrationTilt
+|-1
+
+|#44
+|m_CalibrationArmExt
+|-1
+
+|#45
+|m_CalibrationArmTheta
+|-1
+
+|#46
+|m_CalibrationXray
+|-1
+
+|#47
+|m_CalibrationMono
+|-1
+
+|#48
+|m_AESZAlignXCompInDeg
+|AES ZAlign X Compensation (deg)
+
+|#49
+|m_AESZAlignYCompInDeg
+|AES ZAlign Y Compensation (deg)
+
+|#50
+|m_LocIntroPortInDeg
+|Intro Port Position (deg)
+
+|#51
+|m_LocPark1InDeg
+|Park A Position (deg)
+
+|#52
+|m_LocStageDockInDeg
+|Stage Dock Position (deg)
+
+|#53
+|m_LocPark2InDeg
+|Park B Position (deg)
+
+|#54
+|m_LocAuxPortInDeg
+|Aux Port Position (deg)
+
+|#55
+|m_LocStageXInMM
+|Stage Transfer X (mm)
+
+|#56
+|m_LocStageYInMM
+|Stage Transfer Y (mm)
+
+|#57
+|m_LocStageZInMM
+|Stage Transfer Z (mm)
+
+|#58
+|m_LocStageRotInDeg
+|Stage Transfer Rotation (deg)
+
+|#59
+|m_LocStageTiltInDeg
+|Stage Transfer Tilt (deg)
+
+|#60
+|m_XAxisInitCounts
+|-1
+
+|#61
+|m_YAxisInitCounts
+|-1
+
+|#62
+|m_RAxisInitCounts
+|-1
+
+|#63
+|m_ZAxisInitCounts
+|-1
+
+|#64
+|m_TAxisInitCounts
+|-1
+
+|#65
+|m_AAxisInitCounts
+|-1
+
+|#66
+|m_MAxisInitCounts
+|-1
+
+|#67
+|m_LocStageAuxXferXInMM
+|Stage/Prep Transfer X (mm)
+
+|#68
+|m_LocStageAuxXferYInMM
+|Stage/Prep Transfer Y (mm)
+
+|#69
+|m_LocStageAuxXferZInMM
+|Stage/Prep Transfer Z (mm)
+
+|#70
+|m_LocStageAuxXferRotInDeg
+|Stage/Prep Transfer Rotation (deg)
+
+|#71
+|m_LocStageAuxXferTiltInDeg
+|Stage/Prep Transfer Tilt (deg)
+
+|#72
+|m_AnodePosFaradayInMM
+|Anode Position Faraday Cup (mm)
+
+|#73
+|m_AnodePosMolySlotInMM
+|Anode Position Mo Slot (mm)
+
+|#74
+|m_AnodePosAgSlotInMM
+|Anode Position Ag Slot (mm)
+
+|#75
+|m_AnodePosDeltaInMM
+|Anode Position Delta (mm)
+
+|#76
+|m_AnodePos1InMM
+|Anode Position 1 (mm)
+
+|#77
+|m_AnodePos2InMM
+|Anode Position 2 (mm)
+
+|#78
+|m_AnodePos3InMM
+|Anode Position 3 (mm)
+
+|#79
+|m_AnodePos4InMM
+|Anode Position 4 (mm)
+
+|#80
+|m_AnodePos5InMM
+|Anode Position 5 (mm)
+
+|#81
+|m_AnodePos6InMM
+|Anode Position 6 (mm)
+
+|#82
+|m_AnodePos7InMM
+|Anode Position 7 (mm)
+
+|#83
+|m_AnodePos8InMM
+|Anode Position 8 (mm)
+
+|#84
+|m_AnodePos9InMM
+|Anode Position 9 (mm)
+
+|#85
+|m_AnodePos10InMM
+|Anode Position 10 (mm)
+
+|#86
+|m_AnodePos11InMM
+|Anode Position 11 (mm)
+
+|#87
+|m_AnodePos12InMM
+|Anode Position 12 (mm)
+
+|#88
+|m_AnodePos13InMM
+|Anode Position 13 (mm)
+
+|#89
+|m_AnodePos14InMM
+|Anode Position 14 (mm)
+
+|#90
+|m_AnodePos15InMM
+|Anode Position 15 (mm)
+
+|#91
+|m_AnodePos16InMM
+|Anode Position 16 (mm)
+
+|#92
+|m_AnodePos17InMM
+|Anode Position 17 (mm)
+
+|#93
+|m_AnodePos18InMM
+|Anode Position 18 (mm)
+
+|#94
+|m_AnodePos19InMM
+|Anode Position 19 (mm)
+
+|#95
+|m_AngleResolveYLowLimitInMM
+|Angle Resolve Y Low Limit (mm)
+
+|#96
+|m_AngleResolveYHighLimitInMM
+|Angle Resolve Y High Limit (mm)
+
+|#97
+|m_EightInchYHomeOffsetInMM
+|Eight Inch Stage Y Home Offset (mm)
+
+|#98
+|m_ReadXMileageInMM
+|Motor Mileage (mm)
+
+|#99
+|m_ReadYMileageInMM
+|Y Motor Mileage (mm)
+
+|#100
+|m_ReadZMileageInMM
+|Z Motor Mileage (mm)
+
+|#101
+|m_ReadRMileageInMM
+|R Motor Mileage (mm)
+
+|#102
+|m_ReadTMileageInMM
+|T Motor Mileage (mm)
+
+|#103
+|m_ReadAnodeMileageInMM
+|Anode Motor Mileage (mm)
+
+|#104
+|m_ReadMonoMileageInCnts
+|Monochromator Motor Mileage (counts)
+
+|#105
+|m_ReadArmRotMileageInMM
+|Arm Rotation Motor Mileage (mm)
+
+|#106
+|m_ReadArmExtMileageInMM
+|Arm Extension Motor Mileage (mm)
+
+|#107
+|m_OffsetToolTargetX
+|-1
+
+|#108
+|m_OffsetToolTargetY
+|-1
+
+|#109
+|m_OffsetToolOffsetX
+|-1
+
+|#110
+|m_OffsetToolOffsetY
+|-1
+
+|#111
+|m_OffsetToolEmbeddedX
+|-1
+
+|#112
+|m_OffsetToolEmbeddedY
+|-1
+
+|#113
+|m_OffsetToolActualX
+|-1
+
+|#114
+|m_OffsetToolActualY
+|-1
+
+|#115
+|m_EucTiltPosList
+|-1
+
+|#116
+|m_EucTiltYList
+|-1
+
+|#117
+|m_EucTiltZList
+|-1
+
+|#118
+|m_EucTiltTList
+|-1
+
+|#119
+|m_EucTiltYZeroth
+|-1
+
+|#120
+|m_EucTiltYFirst
+|-1
+
+|#121
+|m_EucTiltYSecond
+|-1
+
+|#122
+|m_EucTiltZZeroth
+|-1
+
+|#123
+|m_EucTiltZFirst
+|-1
+
+|#124
+|m_EucTiltZSecond
+|-1
+
+|#125
+|m_NumEucTiltPositions
+|-1
+
+|#126
+|m_EucTiltZHeightCorrection
+|Eucentric Tilt Z Height Correction (mm)
+
+|#127
+|m_DisableXAfterMove
+|Disable X Motor After Move
+
+|#128
+|m_DisableYAfterMove
+|Disable Y Motor After Move
+
+|#129
+|m_DisableZAfterMove
+|Disable Z Motor After Move
+
+|#130
+|m_DisableTAfterMove
+|Disable T Motor After Move
+
+|#131
+|m_DisableRAfterMove
+|Disable R Motor After Move
+
+|#132
+|m_DisableMonoAfterMove
+|Disable Mono Motor After Move
+
+|#133
+|m_DisableAnodeAfterMove
+|Disable Anode Motor After Move
+
+
+|================
+=== Status
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_AutoShow
+|Automatically show Acquisition status dialog
+
+|#4
+|m_AutoShowRibbon
+|Automatically show Acquisition status ribbon
+
+|#5
+|m_AcqStatusCurrentRelativeZHeight
+|Current Z-Height vs Estimated Target
+
+|#6
+|m_AcqStatusPointsCompleted
+|N out of M Points
+
+|#7
+|m_AcqStatusStepsCompleted
+|N out of M Steps
+
+|#8
+|m_AcqStatusAreasCompleted
+|N out of M areas
+
+|#9
+|m_AcqStatusLinesCompleted
+|N out of M lines
+
+|#10
+|m_AcqStatusRegionsCompleted
+|N out of M Regions
+
+|#11
+|m_AcqStatusSweepsCompleted
+|N out of M Sweeps
+
+|#12
+|m_AcqStatusCyclesCompleted
+|N out of M Cycles
+
+|#13
+|m_AcqStatusFramesCompleted
+|Frames Completed
+
+|#14
+|m_AcqStatusAnglesCompleted
+|Angles Completed
+
+|#15
+|m_AcqStatusEstTargetRelativeZHeight
+|Estimated target Z-Height
+
+
+|================
+=== SXI Registration
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_SxiImageRegList
+|-1
+
+|#4
+|m_PreviewImage
+|Collect New Image
+
+|#5
+|m_ConfidenceThreshold
+|SXI Confidence Threshold
+
+|#6
+|m_NoOfRetries
+|Number Of Retries
+
+|#7
+|m_IRImagePlotGamma
+|IR: Gamma (Brightness)
+
+
+|================
+=== SXI
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_XRaySetting
+|X-Ray Setting Used During SXI Imaging
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_Settings
+|-1
+
+|#4
+|m_DisplayMode
+|Display Mode
+
+|#5
+|m_SlowPersistence
+|Slow Persistence
+
+|#6
+|m_FastPersistence
+|Fast Persistence
+
+|#7
+|m_TotalPersistence
+|Total Persistence
+
+|#8
+|m_PreviewPersistence
+|Preview Persistence
+
+|#9
+|m_ImageRegPersistence
+|IR Persistence
+
+|#10
+|m_SlowSecPerDisplay
+|Slow (sec/frame)
+
+|#11
+|m_FastSecPerDisplay
+|Fast (sec/frame)
+
+|#12
+|m_TotalSecPerDisplay
+|Total (sec/frame)
+
+|#13
+|m_AutoContrast
+|Auto Contrast Enabled
+
+|#14
+|m_AutoContrastLow
+|Auto Contrast Low Intensity (%)
+
+|#15
+|m_AutoContrastHigh
+|Auto Contrast High Intensity (%)
+
+|#16
+|m_ShutterBiasState
+|Shutter Bias State
+
+|#17
+|m_ShutterBiasMode
+|Shutter Bias Voltage Mode
+
+|#18
+|m_ShutterBiasInV
+|Shutter Bias(V)
+
+|#19
+|m_ShutterBiasFixedInV
+|Fixed Shutter Bias (V)
+
+|#20
+|m_ShutterBias0InV
+|0ｰ Shutter Bias (V)
+
+|#21
+|m_ShutterBias15InV
+|15ｰ Shutter Bias (V)
+
+|#22
+|m_ShutterBias30InV
+|30ｰ Shutter Bias (V)
+
+|#23
+|m_ShutterBias45InV
+|45ｰ Shutter Bias (V)
+
+|#24
+|m_ShutterBias60InV
+|60ｰ Shutter Bias (V)
+
+|#25
+|m_ShutterBias75InV
+|75ｰ Shutter Bias (V)
+
+|#26
+|m_ShutterBias90InV
+|90ｰ Shutter Bias (V)
+
+|#27
+|m_Fov
+|Field Of View: X (um)
+
+|#28
+|m_FovMax
+|Maximum image size w/o clipping
+
+|#29
+|m_FovY
+|Image Size Y (um)
+
+|#30
+|m_FovCommon
+|Image Size X (um)
+
+|#31
+|m_CalibrateStageX
+|Calibrate Stage X
+
+|#32
+|m_CalibrateStageY
+|Calibrate Stage Y
+
+|#33
+|m_DirectDrawState
+|Direct Draw State
+
+|#34
+|m_ImagePlotGamma
+|Brightness (Gamma)
+
+|#35
+|m_ImagePlotContrastMin
+|Contrast Min
+
+|#36
+|m_ImagePlotContrastMax
+|Contrast Max
+
+|#37
+|m_ImagePlotThresholdMin
+|Threshold Min
+
+|#38
+|m_ImagePlotThresholdMax
+|Threshold Max
+
+|#39
+|m_ImagePlotAutoContrast
+|Auto Contrast
+
+|#40
+|m_ImageGrabFrameRate
+|Image Grab Frame Rate(frames/sec)
+
+|#41
+|m_ImageScanRatio
+|Vertical to Horizontal Image Size
+
+|#42
+|m_RefreshRate
+|RefreshRate
+
+|#43
+|m_PhotoNumber
+|Photo Number
+
+|#44
+|m_PhotoFov
+|Image Size (FOV)
+
+|#45
+|m_PhotoMicronMarker
+|Micron Marker
+
+|#46
+|m_PhotoComment
+|Comment
+
+|#47
+|m_PhotoDate
+|Date
+
+|#48
+|m_DoPreview
+|Number Of Frames
+
+|#49
+|m_DoIncrement
+|Increment Photo Number
+
+|#50
+|m_DoCopy
+|Copy to Clipboard
+
+|#51
+|m_DoSave
+|Save to File
+
+|#52
+|m_DoSavePositionList
+|Save to File; Add to Position List
+
+|#53
+|m_DoPrint
+|Print
+
+|#54
+|m_DoPreview2
+|Number Of Frames
+
+|#55
+|m_DoIncrement2
+|Increment Photo Number
+
+|#56
+|m_DoCopy2
+|Copy To Clipboard
+
+|#57
+|m_DoSave2
+|Save To File
+
+|#58
+|m_DoPrint2
+|Print
+
+|#59
+|m_PreviewPersistence2
+|Photo Frames Average
+
+|#60
+|m_GoogleBarVisible
+|SXI Toolbar
+
+|#61
+|m_BrightBandReduction
+|Bright Band Correction
+
+|#62
+|m_NoiseReduction
+|Noise Reduction
+
+|#63
+|m_ContrastEnhancement
+|Contrast Enhancement
+
+|#64
+|m_IPDenoiseType
+|-1
+
+|#65
+|m_IPDenoiseKernelSize
+|-1
+
+|#66
+|m_IPDenoiseDiameter
+|-1
+
+|#67
+|m_IPDenoiseDomainTransformMode
+|-1
+
+|#68
+|m_IPDenoiseSigmaColor
+|-1
+
+|#69
+|m_IPDenoiseSigmaSpace
+|-1
+
+|#70
+|m_IPDenoiseHFilterStrength
+|-1
+
+|#71
+|m_IPDenoiseWithUnsharp
+|-1
+
+|#72
+|m_IPContrastType
+|-1
+
+|#73
+|m_IPContrastGamma
+|-1
+
+|#74
+|m_IPContrastClipLimit
+|-1
+
+|#75
+|m_IPFilterType
+|-1
+
+|#76
+|m_IPBRMode
+|-1
+
+
+|================
+=== Test Hardware
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_CommandList
+|Command
+
+|#4
+|m_AppendChecksum
+|Append Checksum
+
+|#5
+|m_AppendCR
+|Append a carriage return character to the message
+
+|#6
+|m_AppendLF
+|Append a line feed character to the message
+
+|#7
+|m_AppendZero
+|Append a zero byte to the message
+
+|#8
+|m_PrependENQ
+|Prepend ENQ
+
+|#9
+|m_SvcRelayFormat
+|SVC Relay Format
+
+|#10
+|m_ReadResponse
+|Read the response from the device
+
+
+|================
+=== TungstenEGun
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_EmControlMode
+|Emission Current Mode
+
+|#2
+|m_BeamVoltageInV
+|Beam Voltage (V)
+
+|#3
+|m_ToFileBeamVoltageInKv
+|-1
+
+|#4
+|m_ExtractorVoltageInV
+|Extractor Voltage
+
+|#5
+|m_EmissionCurrentInUA
+|Emission Current in uA
+
+|#6
+|m_FilamentCurrentInA
+|Filament Current in A
+
+|#7
+|m_FocusInPercent
+|Focus (%)
+
+|#8
+|m_ElasticPeakEnergyInEv
+|Elastic Peak Energy (eV)
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_Settings
+|-1
+
+|#7
+|m_Mode
+|Tungsten E-Gun State
+
+|#8
+|m_ToFileAnodeEnergy
+|Photon Energy (eV)
+
+|#9
+|m_EmissionGain
+|Emission Gain
+
+|#10
+|m_EmissionTimePerStepInMs
+|Time per Step in ms
+
+|#11
+|m_FilamentRampRateInAPerSec
+|Ramp Rate in A/s
+
+|#12
+|m_FilamentLimitInA
+|Software Filament Current Limit in A
+
+|#13
+|m_EmissionRange
+|Emission Range
+
+|#14
+|m_AutoShutdownMode
+|Auto Shutdown
+
+|#15
+|m_AutoShutdownDelay
+|Shutdown the Tungsten E-Gun After This Time Period of Inactivity
+
+
+|================
+=== UPS
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SourceType
+|Source Type
+
+|#7
+|m_AnodeMaterial
+|Photon Source
+
+|#8
+|m_AnodeEnergy
+|Photon Energy (eV)
+
+|#9
+|m_AnodePower
+|Beam Power (W)
+
+|#10
+|m_BeamDiameterInUm
+|Beam Diameter (um)
+
+|#11
+|m_IgniteToSource1CurrStepInMa
+|Ignite to Source1 Current Step (mA)
+
+|#12
+|m_IgniteToSource1FlowRateStepInPercent
+|Ignite to Source1 Gas Step (%)
+
+|#13
+|m_IgniteToSource1IntervalInSec
+|Ignite to Source1 Step Interval (sec)
+
+|#14
+|m_Source2ToSource1CurrStepInMa
+|Source2 to Source1 Current Step (mA)
+
+|#15
+|m_Source2ToSource1FlowRateStepInPercent
+|Ignite to Source1 Gas Step (%)
+
+|#16
+|m_Source2ToSource1IntervalInSec
+|Source2 to Source1 Step Interval (sec)
+
+|#17
+|m_AutoTuneEnabled
+|Photon Source Auto Tune
+
+|#18
+|m_AutoTuneTargetVoltageInV
+|Photon Source Auto Tune Target Voltage (V)
+
+|#19
+|m_AutoTuneFlowRateStepInPercent
+|Photon Source Auto Tune Gas Step (%)
+
+|#20
+|m_AutoTuneStepIntervalInSec
+|Photon Source Auto Tune Step Interval (sec)
+
+|#21
+|m_GasType
+|Gas Source
+
+|#22
+|m_He1VoltageInV
+|He1: Voltage (V)
+
+|#23
+|m_He1CurrentInMa
+|He1: Current (mA)
+
+|#24
+|m_He1FlowRateInPercent
+|He1: Gas Regulation (%)
+
+|#25
+|m_He2VoltageInV
+|He2: Voltage (V)
+
+|#26
+|m_He2CurrentInMa
+|He2: Current (mA)
+
+|#27
+|m_He2FlowRateInPercent
+|He2: Gas Regulation (%)
+
+|#28
+|m_Ne1VoltageInV
+|Ne1: Voltage (V)
+
+|#29
+|m_Ne1CurrentInMa
+|Ne1: Current (mA)
+
+|#30
+|m_Ne1FlowRateInPercent
+|Ne1: Gas Regulation (%)
+
+|#31
+|m_Ne2VoltageInV
+|Ne2: Voltage (V)
+
+|#32
+|m_Ne2CurrentInMa
+|Ne2: Current (mA)
+
+|#33
+|m_Ne2FlowRateInPercent
+|Ne2: Gas Regulation (%)
+
+|#34
+|m_Ar1VoltageInV
+|Ar1: Voltage (V)
+
+|#35
+|m_Ar1CurrentInMa
+|Ar1: Current (mA)
+
+|#36
+|m_Ar1FlowRateInPercent
+|Ar1: Gas Regulation (%)
+
+|#37
+|m_Ar2VoltageInV
+|Ar2: Voltage (V)
+
+|#38
+|m_Ar2CurrentInMa
+|Ar2: Current (mA)
+
+|#39
+|m_Ar2FlowRateInPercent
+|Ar2: Gas Regulation (%)
+
+|#40
+|m_IgnitionVoltageInV
+|Ignition: Voltage (V)
+
+|#41
+|m_IgnitionCurrentInMa
+|Ignition: Current (mA)
+
+|#42
+|m_IgnitionFlowRateInPercent
+|Ignition: Gas Regulation (%)
+
+|#43
+|m_PressureControl
+|Pressure Control
+
+|#44
+|m_AutoShutdownMode
+|Auto Shutdown
+
+|#45
+|m_AutoShutdownDelayInHr
+|Shutdown UPS source after period of inactivity
+
+
+|================
+=== USB Connection Monitor
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+
+|================
+=== Vacuum
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_PressureLog
+|-1
+
+|#4
+|m_IntroColdCathodePressureSetpoint
+|Intro: Gauge Setpoint (Torr)
+
+|#5
+|m_WaitChamberPressureSetpoint
+|Wait Chamber Pressure (Torr)
+
+|#6
+|m_PollingRateInS
+|Refresh rate when all tasks are idle
+
+
+|================
+=== XRay
+
+==== Settings
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_AnodePositionXRay
+|Anode Position
+
+|#2
+|m_AnodePositionBeamSize
+|Anode Position during Beam Size
+
+|#3
+|m_InterlaceInterval
+|Interlace Interval
+
+|#4
+|m_BeamVoltageInV
+|Beam Voltage(V)
+
+|#5
+|m_CondenserVoltageInV
+|Condenser Voltage (V)
+
+|#6
+|m_BlankVoltageInV
+|Blank Voltage (V)
+
+|#7
+|m_ObjectiveCurrentInA
+|Objective Current (A)
+
+|#8
+|m_FilamentCurrentMaxInA
+|Filament Current Limit (A)
+
+|#9
+|m_EmissionCurrentSetPointInMa
+|Target Emission Current (mA)
+
+|#10
+|m_EmissionCurrentControl
+|Emission Current Control
+
+|#11
+|m_ReadFilamentCurrentInA
+|Read Filament Current (A)
+
+|#12
+|m_OffsetXInUm
+|Offset X (um)
+
+|#13
+|m_OffsetYInUm
+|Offset Y (um)
+
+|#14
+|m_StigX
+|Stigmation X
+
+|#15
+|m_StigY
+|Stigmation Y
+
+|#16
+|m_MagFactorX
+|X Magnification Factor
+
+|#17
+|m_MagFactorY
+|Y Magnification Factor
+
+|#18
+|m_RotationInDeg
+|Rotation (deg)
+
+|#19
+|m_ReadBeamPowerInW
+|Beam Power (W)
+
+|#20
+|m_BeamSizeStartXInUm
+|Beam Size Start X (um)
+
+|#21
+|m_BeamSizeEndXInUm
+|Beam Size End X (um)
+
+|#22
+|m_BeamSizeStartYInUm
+|Beam Size Start Y (um)
+
+|#23
+|m_BeamSizeEndYInUm
+|Beam Size End Y (um)
+
+|#24
+|m_BeamDiameterInUm
+|Beam Diameter (um)
+
+|#25
+|m_StepsPerDiameter
+|Steps Per Beam Diameter
+
+|#26
+|m_StepsPerDiameterForReadBeam
+|Steps Per Beam Diameter (Read Beam Diameter)
+
+|#27
+|m_DelayForReadBeam
+|Step Delay For Read Beam Diameter (ms)
+
+|#28
+|m_HighPower
+|High Power
+
+
+|================
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_OutgasPressureGauge
+|Gauge for monitoring outgas pressure
+
+|#4
+|m_OutgasPressureThreshold
+|Pressure Threshold for Outgas (Torr) - When pressure exceeds this value supplies are reduced until pressure recovers
+
+|#5
+|m_OutgasRecoveryPressure
+|Recovery Pressure for Outgas - When pressure exceeds threshold, wait until pressure drops below this value before continue
+
+|#6
+|m_SputterGunTypeSettingActive
+|Setting Active
+
+|#7
+|m_SputterGunTypeSettingName
+|Setting Name
+
+|#8
+|m_SputterCoSputterActive
+|Co-Sputter Active
+
+|#9
+|m_SputterCoSputterType
+|Co-Sputter
+
+|#10
+|m_SputterCoSputterSettingActive
+|Co-Sputter Setting Active
+
+|#11
+|m_SputterCoSputterSettingName
+|Co-Sputter Setting Name
+
+|#12
+|m_SputterZalarRotation
+|Zalar Rotation
+
+|#13
+|m_SputterEGunNeutralization
+|EGun Neutralization
+
+|#14
+|m_SputterTargetSputterTime
+|Target Sputter Time (min)
+
+|#15
+|m_AmmeterTargetTask
+|Target Task
+
+|#16
+|m_AmmeterMode
+|Bias Box Mode
+
+|#17
+|m_AmmeterReadCurrentInUnits
+|Beam Current
+
+|#18
+|m_Settings
+|-1
+
+|#19
+|m_SourceType
+|Source Type
+
+|#20
+|m_AnodeMaterial
+|Anode Material
+
+|#21
+|m_AnodeEnergy
+|Photon Energy (eV)
+
+|#22
+|m_IgnoreWatchDogWithHPSetting
+|Ignore Setting Watch Dog With HP Setting
+
+|#23
+|m_InitializeAnodeOnBeamPowerBeamSize
+|Initialize Anode Motor When Beam Power Or Beam Size
+
+|#24
+|m_FilamentCurrentGain
+|Filament Current Gain
+
+|#25
+|m_EmissionCurrentRefreshRateInMin
+|Emission Current Control Refresh Rate (min)
+
+|#26
+|m_BeamParkActive
+|Auto Park X-Ray Beam After Acquisition
+
+|#27
+|m_BeamParkXraySetting
+|X-Ray Setting Used During Beam Parking
+
+|#28
+|m_BeamParkAutoOff
+|Auto Beam Park Shutdown Active
+
+|#29
+|m_BeamParkAutoOffDelay
+|Shutdown Beam Parking After This Time Period Of Inactivity
+
+|#30
+|m_ArcCount
+|Arc Count
+
+|#31
+|m_LensArcCount
+|Lens Arc Count
+
+|#32
+|m_HardwareFilamentCurrentLimitInA
+|Filament Current Limit For Hardware Safety (A)
+
+|#33
+|m_HardwareEmissionCurrentLimitInUA
+|Emission Current Limit For Hardware Safety (uA)
+
+|#34
+|m_DelayFactorX
+|Delay Factor X
+
+|#35
+|m_DelayFactorY
+|Delay Factor Y
+
+|#36
+|m_AreaTimePerPointInUs
+|Area Time Per Point (uSec)
+
+|#37
+|m_PointTimePerPointInUs
+|Point Time Per Point (uSec)
+
+|#38
+|m_BPPrevEmissionControl
+|Beam Power Previous Emission Current Control State
+
+|#39
+|m_BPReadDelayInSec
+|Beam Power Read Delay (sec)
+
+|#40
+|m_BeamSizeAutoAdjust
+|Beam Size Auto Adjust Threshold
+
+|#41
+|m_StepsPerDiameterForSxi
+|Steps Per Beam Diameter (SXI Imaging)
+
+|#42
+|m_StepsPerDiameterForSpectrum
+|Steps Per Beam Diameter (Spectrum/Profile Acquisition)
+
+|#43
+|m_StepsPerDiameterForLine
+|Steps Per Beam Diameter (Line Acquisition)
+
+|#44
+|m_StepsPerDiameterForMap
+|Steps Per Beam Diameter (Map Acquisition)
+
+|#45
+|m_BeamEnergyDataOutgas
+|Beam Voltage(V)
+
+|#46
+|m_CondenserVoltageDataOutgas
+|Condenser Voltage (V)
+
+|#47
+|m_ObjectiveCurrentDataOutgas
+|Objective Current (A)
+
+|#48
+|m_FilamentRange1DataOutgas
+|Filament Current Limit (A): Range-1
+
+|#49
+|m_FilamentRange2DataOutgas
+|Filament Current Limit (A): Range-2
+
+
+|================
+=== ZAlign
+
+==== Settings
+なし
+
+==== Properties
+[%header]
+[cols="h, 3d, 6a"]
+|================
+|ID|パラメータ名|概要
+
+|#1
+|m_ValidateChangesPrompt
+|-1
+
+|#2
+|m_CategoryList
+|-1
+
+|#3
+|m_XRaySetting
+|X-Ray Setting Used During Z-Align
+
+|#4
+|m_XRayHpSetting
+|X-Ray Setting Used During Z-Align (High Power)
+
+|#5
+|m_SemSetting
+|SEM Setting Used During AES Z-Align
+
+|#6
+|m_AcquireTimeInS
+|Z-Align Acquire Time (s)
+
+|#7
+|m_StageMoveMode
+|Z-Align Stage Movement
+
+|#8
+|m_CourseStepInMM
+|Z-Align Coarse Stage Step (mm)
+
+|#9
+|m_FineStepInMM
+|Z-Align Fine Stage Step (mm)
+
+|#10
+|m_BkgrdUncertFctr
+|Background Uncertainty Factor
+
+|#11
+|m_PeakUncertFctr
+|Peak Uncertainty Factor
+
+|#12
+|m_BkgrdPtsToAvg
+|Number Of Data Points for Background Average
+
+|#13
+|m_ValidPeakRatio
+|Valid Peak to Background Ratio
+
+|#14
+|m_InitialDropHeightInMM
+|Initial Drop Height In mm
+
+|#15
+|m_ZAlignMaxRestarts
+|Number Of Retries
+
+|#16
+|m_EstAcqTimeZMoveInMin
+|Time Per Z Move (min)
+
+|#17
+|m_ZAlignContNeut
+|I-Neut Neutralization During Z-Align
+
+
+|================
